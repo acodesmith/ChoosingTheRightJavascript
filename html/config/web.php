@@ -44,6 +44,7 @@ $config = [
             'showScriptName'=>false,
             'rules'=>[
                 'api/page/<page:\w+>' => 'api/page',
+                '/presentation'=>'site/presentation'
             ]
         ]
     ],

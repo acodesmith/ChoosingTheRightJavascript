@@ -6,9 +6,10 @@ $this->title = 'My Yii Application';
 
     <div class="jumbotron">
         <h2>Choosing the right Javascript for the Job</h2>
-        <p>Single page applications (SPA) are becoming more popular everyday. Due to their lack of reloading, fast interactivity and ability to separate the visual presentation from database activity (using RESTful APIs) a Single Page Application can turn a simple product into an impressive presentation.
-            Complicated template logic can be hard to manage for a large project and some javascript frameworks can be overkill. This presentation will present the pros and cons of different Javascript Frameworks. When to use Angular or when to use a jQuery Plugin.
-            We will analyze how each framework came to be, who maintains the codebase and top level components associated with the product.</p>
+        <p>Single page applications (SPA) are becoming more popular everyday. Due to their lack of reloading, fast interactivity and ability to separate the visual presentation from database activity
+            a Single Page Application can turn a simple product into an impressive presentation.
+            Complicated template logic can be hard to manage for a large project and some javascript
+            frameworks can be overkill. We will analyze how each framework came to be, who maintains the codebase and top level components.</p>
 
     </div>
 
@@ -26,7 +27,10 @@ $this->title = 'My Yii Application';
                         and connects it all to your existing API over a RESTful JSON interface.</p>
 
                     <p>
-                    <a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a>
+
+                    <p>
+                        <a class="btn btn-primary" href="/spa/backbone">Backbone SPA</a>
+                    </p>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -38,9 +42,10 @@ $this->title = 'My Yii Application';
                         AngularJS lets you extend HTML vocabulary for your application.
                         The resulting environment is extraordinarily expressive, readable, and quick to develop.
                         AngularJS is a toolset for building the framework most suited to your application development.
-                        It is fully extensible and works well with other libraries. </p>
-
-                        <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a>
+                        It is fully extensible and works well with other libraries.
+                    </p>
+                    <p>
+                        <a class="btn btn-primary" href="/spa/angular">Angular SPA</a>
                     </p>
                 </div>
             </div>
@@ -50,14 +55,14 @@ $this->title = 'My Yii Application';
                         <img src="http://emberjs.com/images/ember_logo.png" alt="Ember JS" />
                         <br />
                         <br />
-                        Ember.js is an open-source client-side JavaScript web application framework based on the model-view-controller
-                        (MVC) software architectural pattern.
-                        It allows developers to create scalable single-page applications by incorporating common idioms and best practices
-                        into a framework that provides a rich object model,
-                        declarative two-way data binding, computed properties, automatically-updating templates powered by Handlebars.js,
-                        and a router for managing application state.</p>
-
-                    <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                        Ember.js is a client-side JS web application framework based on the MVC pattern.
+                        It allows developers to create scalable single-page applications by incorporating a rich object model,
+                        declarative two-way data binding, computed properties, automatically-updating templates,
+                        and a router for managing application state.
+                    </p>
+                    <p>
+                        <a class="btn btn-primary" href="/spa/ember">Ember SPA</a>
+                    </p>
                 </div>
             </div>
         </div>
