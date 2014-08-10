@@ -30,6 +30,9 @@ body {
     font-size: 21px;
     padding: 14px 24px;
 }
+.jumbotron p {
+    font-size:1.25em;
+}
 
 .not-set {
     color: #c55;
