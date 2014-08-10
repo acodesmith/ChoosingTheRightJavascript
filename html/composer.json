@@ -1,0 +1,13 @@
+{
+    "name": "ncdevcon/ctrj",
+    "authors": [
+        {
+            "name": "adamsmithcreations",
+            "email": "adamsmithcreations@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    }
+}
