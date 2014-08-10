@@ -8,6 +8,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "php-curl-class/php-curl-class":"*"
     }
 }

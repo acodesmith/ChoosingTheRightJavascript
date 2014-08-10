@@ -41,7 +41,10 @@ $config = [
         'urlManager' => [
             'class' => 'yii\web\UrlManager',
             'enablePrettyUrl'=>true,
-            'showScriptName'=>false
+            'showScriptName'=>false,
+            'rules'=>[
+                'api/page/<page:\w+>' => 'api/page',
+            ]
         ]
     ],
     'params' => $params,
