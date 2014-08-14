@@ -5,6 +5,7 @@ namespace app\controllers;
 use app\models\Resources;
 use Yii;
 use yii\filters\AccessControl;
+use yii\helpers\Json;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
@@ -26,5 +27,14 @@ class ResourceController extends Controller
         echo 'Sessions data stored!<br />';
 
         printf('<pre>%s</pre>', print_r(Resources::getList(),1));
+    }
+
+    public function actionSessions()
+    {
+        $fp = fopen(Yii::getAlias('@app').'/'.Resources::LOCATION.'/json/sessions.json', 'a');
+
+        fwrite($fp, Json::encode( Resources::parseSessions( Resources::get('sessions') ) ));
+        fclose($fp);
+
     }
 }
