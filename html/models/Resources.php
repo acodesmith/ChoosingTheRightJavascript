@@ -51,6 +51,8 @@ class Resources extends Model
 
     public static function parseSessions($html)
     {
+        error_reporting(E_ALL);
+        ini_set('display_errors',1);
         $sessions = [];
         $html = self::parseBody($html);
         $spos = strpos($html,'<tr>');
@@ -64,10 +66,10 @@ class Resources extends Model
             if(strpos($content,'<th>') === false){
                 if(strpos($content,'colspan="2"') !== false){
                     //echo 'Category'."<br />";
-                    $category = strip_tags($content);
+                    $category = preg_replace("/[\n\r]/","", strip_tags($content) );
+                    $category = trim(preg_replace('/\t+/', '', $category));
                     $sessions['categories'][]=$category;
                 }else{
-                    //echo 'Session'."<br />";
                     $start_title = strpos($content,'<h3>')+4;
                     $start_description = strpos($content,'<p>')+3;
                     $start_author = strpos($content,'</td>')+9;

@@ -1,33 +1,29 @@
-
+/**
+ * Category of Session
+ * @type {void|*}
+ */
 app.Categories = Backbone.Model.extend({
     defaults: {
         title: ''
     }
 });
-
-app.Locations = Backbone.Model.extend({
-    defaults: {
-        title: '',
-        description: '',
-        address: ''
-    }
-});
-
+/**
+ * Session Information with Author and Category object
+ * @type {void|*}
+ */
 app.Session = Backbone.Model.extend({
     defaults: {
         category:{},
         title: '',
         description: '',
-        speaker: {}
+        author: {}
     }
 });
-
-app.Schedule = Backbone.Model.extend({
-    defaults: {
-        day: new Date(),
-        time: new Date(),
-        session: {},
-        location: {}
-    }
+/**
+ * Filter Object for Search Function
+ * @type {void|*}
+ */
+app.FilterType = Backbone.Model.extend({
+    name: '',
+    property: ''
 });
-
