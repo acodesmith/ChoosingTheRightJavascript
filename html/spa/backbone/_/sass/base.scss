@@ -1,0 +1,31 @@
+//main font
+$main-font:#ebebeb;
+
+//main bg
+$main-bg: #2b3e50;
+
+section {
+  margin:4em 1em 0;
+}
+
+[data-category] {
+  position:relative;
+  padding: 1em 0;
+
+  &:before {
+    position: absolute;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    content: attr(data-category);
+    top: 0;
+    left: 0;
+    padding:0.25em 1em;
+    font-size:0.75em;
+    font-weight:bold;
+    text-align:right;
+    border-bottom:1px solid $main-font;
+    border-top: 1px solid $main-font;
+    background: darken($main-bg, 8);
+  }
+}

@@ -1,4 +1,4 @@
-{"categories": ["ColdFusion", "Design", "HTML5 CSS Web", "Javascript", "Mobile", "Security", "Uncategorized"], "sessions": [
+{"categories": ["ColdFusion", "Design", "HTML5 CSS Web", "HTML5 CSS Web", "Mobile", "Security", "Uncategorized"], "sessions": [
     {
         "category": "ColdFusion",
         "description": "In this session we will dive into what makes the marriage between AngularJS and ColdFusion work together in holy matrimony. The pro's, the con's, the do's, the dont's, the good, the bad, the ugly.",
@@ -4167,6 +4167,866 @@
             "name": "Brian Klaas",
             "description": " Brian Klaas is the Senior Web Systems Designer at the Johns Hopkins Bloomberg School of Public Health's Center for Teaching and Learning. As the architect for eLearning technology at the School, he leads a team that designs and delivers custom online courseware to students and members of the public health workforce around the globe. In addition to designing software and delivering courses, Brian is the manager of the Johns Hopkins Adobe User Group, teaches \"Introduction to Online Learning,\" and leads faculty training and development courses. Brian has presented on software development and eLearning at conferences throughout the country, including cf.Objective(), NCDevCon, the Adobe ColdFusion Summit, Adobe MAX, UBTech, and CUE.",
             "image": "\/assets\/content\/speaker-photos\/klaas_brian.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Legacy code. It can be the death of your sanity!  A simple bug can take hours or even days to find. You just want to toss the whole code base and rewrite from scratch! But who has that kind of time? And why throw the baby out with the bath water? Your business logic is probably fine, its just the code that needs an overhaul.  \r\n\r\nThis session, based on an actual case, offers ideas on how to massage that old embarrassing code into something you can understand, troubleshoot, and even proudly show off. Your will learn about documentation strategies that help you map out the logic, hear suggestions on  how to modularize your application, get tips on using testing and frameworks to smooth out the process, and find out about what pitfalls could befall (and have befallen) the process.  The most important takeaway though will be that slow and steady wins the race. The session offers a road map on how to tame that legacy beast in manageable steps without being overwhelmed.  \r\n\r\nThe majority of the code discussed will center around ColdFusion with some discussion of JavaScript as well.\r\n\r\nPull that legacy code out of the past and save your sanity in the process!",
+        "title": "Taming the Legacy Beast: Turning wild old code into a sleek new thoroughbred.",
+        "author": {
+            "name": "Chris Laning",
+            "description": " A web developer since 1995 and a  ColdFusion developer since 1997, Chris has worked with Javascript, MSSQL, XML, XSL, ActionScript, ASP (pre .Net days), Oracle, and Real Media. He began editing audio for websites in 1998 and  got into podcasting in 1996. Currently he is a Senior Web Developer for FineStationery.com. He is also the current producer of the \u201cCFHour\u201d podcast. In his spare time he edits other podcasts and dabbles in voice-over work.He is also a dad, theatre guy, Disney geek, NASCAR fan, and political junkie.",
+            "image": "\/assets\/content\/speaker-photos\/laning_chris.jpg"
+        }
+    },
+    {
+        "category": "Design",
+        "description": "There are amazing and beautiful ways to combine CSS3 and JavaScript to create designs that would be nearly impossible in Photoshop. In this hands-on session you will learn 5 techniques that combine simple math, basic code and a touch of creativity to manipulate the fundamental elements of design in incredible ways. From compositions that look like only nature could create to highly technical fractal patterns, the endless possibilities of CSS+JavaScript do not disappoint. Designers and coders alike will leave this collaborative session with practical skills and a new-found sense creativity.",
+        "title": "Reinventing Creativity with CSS3 + JavaScript",
+        "author": {
+            "name": "David Ogden",
+            "description": " David lives in the woods of North Carolina with his wife and children. During the day he ventures into town where he envisions, launches, and grows web and mobile products. He has deep experience in both front-end and back-end web development. David is a founding member of the Triangle-based startup \"Userlite\" that helps tech entrepreneurs launch sooner and focus on product innovation.",
+            "image": "\/assets\/content\/speaker-photos\/ogden_david.jpg"
+        }
+    },
+    {
+        "category": "Design",
+        "description": "This session would discuss why websites like SquareSpace and Google tend to lead the way in user interface design and why websites like Yahoo, Yelp and other like-minded business seem to overwhelm their users. In a time where our minds seem to be overwhelmed with choices, businesses who capture the less is more movement will be the ones who succeed.",
+        "title": "Why Less Will Always Be More",
+        "author": {
+            "name": "Josh Hines",
+            "description": " I come from a background of 12 years experience in some sort of marketing. From telemarketing to digital marketing, I got a good idea of the types of marketing communications that appeal to customers and keep their attention. I've also worked for a handful of tech companies in the triangle including: Global Software, Atlantic BT and Red Hat.",
+            "image": "\/assets\/content\/speaker-photos\/hines_josh.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "This session would describe what are the best practices of writing RESTful APIs. What are the different tools to create and test these APIs? What are the common pitfalls and how to avoid them? What are some of the industries best public APIs, etc. This session might also include a quick and easy hands-on session to fire and launch some APIs in the cloud using Play! Framework or Vert.X.",
+        "title": "APIs - The Good, the Bad and the Ugly",
+        "author": {
+            "name": "Nikhil Bendre",
+            "description": " Nikhil graduated from Clemson University in 2012 with a Masters Degree\r\nin Computer Science with focus on Web Services, Distributed Programming\r\nand Service Oriented Architecture and has passion for startups, tech meetups \r\nand hackathons.\r\n\r\nHe is a Software Engineer at ServiceNow and recently moved out to San Diego.\r\nServiceNow is the industry-leading cloud platform provider for building\r\nenterprise applications. \r\n\r\nHe was an API architect at Air-Watch in Atlanta, which is the world\u2019s\r\nleader in enterprise mobility management. AirWatch was recently acquired by VMWare, Inc in January 2014 for $1.54 billion.",
+            "image": "\/assets\/content\/speaker-photos\/bendre_nikhil.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "To the Batmobile!\r\nAtomic batteries to power, turbines to speed, ready to make some desktop applications with Node.js!\r\n\r\nAtom-shell by Github is the Batmobile for HTML5. Your website can already zip around Gotham city fighting crime, but sometimes you need more power and tools. Atom-shell combines a Chromium front end with the power of Node.js, allowing you to make some powerful desktop applications on OSX, Windows, or Linux.\r\n\r\nThis session covers how to build an HTML5 based application utilizing features from Node.js that were never possible in your browser. Beginner front-enders will love the ease at which we can create applications, while seasoned veterans will love the potential that Node.js has to offer for creating anything you can think of.",
+        "title": "Atomic Desktop Power with Node.js",
+        "author": {
+            "name": "Ben Farrell",
+            "description": " Whatever you call him... a front-ender, a creative developer, full stack engineer, Ben just loves to have fun pushing lots of pixels and making them do his bidding. Ben likes to try new things and talk about it whether they work or don't.",
+            "image": "\/assets\/content\/speaker-photos\/farrell_ben.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "Responsive Web Design has been a buzzword since the term was first coined in May 2010. Come find out what this emerging technology is all about as you are introduced to the basics of Responsive Web Design. We'll cover your current options when it comes to designing your own website and we'll also discuss emerging best practices, common misconceptions, and a few examples from industry leaders. We will also take a look at how you can test your responsive design without owning one of each device out there.",
+        "title": "Getting Started with Responsive Web Design",
+        "author": {
+            "name": "Matt Busche",
+            "description": " Matt Busche is an Application Developer at Nationwide Insurance, specializing in CFML, JavaScript, Groovy\/Grails, TDD, and overall web development. Matt also ocassionally writes Ruby\/jRuby code. Matt recently spoke at cf.Objective() in Minneapolis.",
+            "image": "\/assets\/content\/speaker-photos\/busche_matt.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "As developers we are tasked with building applications which simplify lives of our end users but how do we manage our code? How does we transform our raw code to a deployable asset? The answer to this seemingly simply question can be pretty complicated.\r\n\r\nThe simple answer could be to bury your head in the sand and do nothing. You could even do a whole bunch of manual stuff but both of those options suck. A better solution is to use a task automation tool and Grunt may be the right tool for you.\r\n\r\nIf your project requires the ability to transform, validate, compile, along with much more you will need a higher level tool to perform these actions. One such tool is GruntJs. In this session we will learn how to use GruntJs to build, transform and deploy a web project.",
+        "title": "GruntJs - Funny Name, Awesomely powerful tool",
+        "author": {
+            "name": "Derik Whittaker",
+            "description": " Derik Whittaker is a Software Architect who specializes in all things .Net. Derik has been building enterprise systems on top of the .Net technology stack for over 14 years and along the way has picked up a thing or two about how to create enterprise scale software systems.\r\n\r\nDuring his 14 year career Derik has worked in many different industries ranging from Marking, Healthcare, Retail, Insurance, Automotive and Online Entertainment. Currently Derik is working for a Technology startup (orgspan.com) in Durham North Carolina leading their windows phone and windows modern UI application development. Derik believes that the job of a developer is more than just turning syntax into working 1\u2019s and 0\u2019s. He believes that our job is to produce a system which gets out of the users way and allows them to do their job better.\r\n\r\nDerik has been awarded the Microsoft MVP in C# for the past 6 years. Along with being an MVP he is also a member of the ASPInsiders group. Derik is also a Pluralsight Author with multiple course under his belt. He is a community leader, helping to organize events such as Chicago Codeapalooza, Chicago Code Camp and the Raleigh Code Camp.\r\n\r\nOutside of his day job you can find Derik hanging out with his beautiful wife Tiffany and his 2 awesome boys Brendan and Ryan",
+            "image": "\/assets\/content\/speaker-photos\/whittaker_derik.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "In this session I'll show how easy it is to build an effective and attractive cross browser user interface using Bootstrap as well as other complimentary bits. Even the design challenged developer can present make a great looking application!",
+        "title": "How To Build A Sexy User Interface For The Design Challenged Developer",
+        "author": {
+            "name": "Todd Sharp",
+            "description": " Todd is a long time member of the ColdFusion community who has served as an ACP and spoken at numerous events such as CFUnited, cf.Objective, Adobe MAX and the original CFinNC. He is currently focused on UI\/UX, but has tons of server side experience with ORM and MVC frameworks.",
+            "image": "\/assets\/content\/speaker-photos\/sharp_todd.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "So you've heard about Selenium, but what's it really all about? Maybe you've tried writing some tests, but soon found yourself frustrated trying to get them to work reliably. If you are interested in using this great tool to do integration testing for your websites and help automate your testing, this is the talk for you! We'll look at all the kinds of things you can do in Selenium, how to approach your testing, and use a live site as an example of building a complete suite of tests that will ensure clean, bug-free site updates.",
+        "title": "Real World Selenium Testing",
+        "author": {
+            "name": "Mary Jo Sminkey",
+            "description": " I've  been coding in CF for around 20 years now, most well known for my ecommerce software CFWebstore, one of the first complete ecommerce platforms done in ColdFusion. These days I work as a Senior Web Developer at CFWebtools, where I oversee a multi-million dollar ecommerce site for classic car parts. In my spare time, I have a wide variety of hobbies and interests, including playing handbells, cooking and baking, folding advanced origami, digital scrapbooking, photography, game playing, and training and showing my dogs in various sports.",
+            "image": "\/assets\/content\/speaker-photos\/sminkey_mary jo.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "This presentation will provide the basis to build awesome web sites with modern HTML & CSS techniques, simplifying HTML and resulting in more maintainable styling. I'll introduce you to the features available in the popular CSS pre-processors, how you can use them to be more productive, and give real-world examples of how they'll benefit you. You'll learn the foundation of these techniques with the LESS pre-processor, and how to change the way you think about styling to build a better web.",
+        "title": "Rethink CSS: clean & maintainable web sites with LESS",
+        "author": {
+            "name": "Keith Zantow",
+            "description": " Keith is a software engineer with over 10 years of industry experience designing full-stack web applications with a variety of languages and technologies. He's implemented everything from full-blown object relational mapping systems to complete UI overhauls and always brings a unique perspective to any development team.",
+            "image": "\/assets\/content\/speaker-photos\/zantow_keith.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "The last few years have seen spectacular, sweeping changes in the paradigms of front-end website production.  New technology standards, frameworks innovations, design trends, and the always-growing mobile market have totally reshaped approaches to building the presentation layer.  \r\n\r\nThis hands-on lab will investigate a powerful medley of front-end production frameworks, standards, and tools.  \r\n\r\nHTML\r\n - Getting Responsive with Bootstrap 3\r\n - Embracing relative metrics instead of pixels\r\n - Starting mobile-first and content-out\r\n\r\nCSS\r\n - Using the SASS preprocessor with the Compass authoring framework\r\n - Staying scalable, modular, and manageable\r\n\r\nJavaScript\r\n - Templating your HTML with Mustache JS\r\n\r\n\r\nWho Should Attend:\r\nAnyone that wishes to diversify their front-end development toolset.  A general knowledge of HTML and CSS will be assumed.",
+        "title": "The New UI : Staying Strong in the Winds of Change",
+        "author": {
+            "name": "Eric Carlisle",
+            "description": " Eric Carlisle is the Lead UI\/UX Architect for Lookingglass, a firm specializing in cyber threat intelligence management.  Eric has 18 years experience in full-stack website development, working with clients including Under Armour, Toyota, World Wildlife Fund, and Johns Hopkins University.",
+            "image": "\/assets\/content\/speaker-photos\/carlisle_eric.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "In order \"to promote design commonality and improved user experience across enterprise IT products and applications,\" [1] Red Hat created the PatternFly open interface project on top of Bootstrap. Bootstrap is \"the most popular front-end framework for developing responsive, mobile first projects on the web\" [2].  Bootstrap was chosen as the foundation for PatternFly because many of product development teams within Red Hat had already implemented Bootstrap in their applications or were looking to do so. But Bootstrap alone did not cover every need of Red Hat's application development teams, so PatternFly incorporates other widgets and functionality in addition to a custom look and feel that distinctly brands each product that utilizes it.  This session will show you how to use Bootstrap to create a common UI across a portfolio of products, using Red Hat's creation of PatternFly as an illustration.\r\n\r\n[1] https:\/\/www.patternfly.org\r\n[2] http:\/\/getbootstrap.com",
+        "title": "Using Bootstrap to create a common UI across products",
+        "author": {
+            "name": "Robb Hamilton Greg Sheremeta",
+            "description": " About Robb Hamilton\r\n\r\nRobb is a front-end developer and UX designer at Red Hat with over 16 years of experience designing and building web sites and applications.  As the PatternFly development lead, Robb works with other designers and developers to create and maintain PatternFly.  When not at work, Robb enjoys running, hiking, and a fine IPA.\r\n\r\nAbout Greg Sheremeta\r\n\r\nGreg is a mostly front-end developer at Red Hat with about 15 years experience in full-stack web development. Currently focusing on UI infrastructure on the oVirt project, Greg was responsible for porting oVirt over to using PatternFly for its look-and-feel. When not at work, Greg enjoys working, traveling, or hanging out with his wife and six wonderful rescue dogs.",
+            "image": "\/assets\/content\/speaker-photos\/greg sheremeta_robb hamilton.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "It\u2019s not a tips and tricks or best practice talk. Rather,  it\u2019s a ground up discussion about why core of JavaScript is developed in certain way and what benefits you could get from the eye opening understanding of JavaScript. After this talk you can feel and explain core of javascript concepts other than following so called best practices blindly. \r\n\r\nThe goal of this talk is to get rid of your confusion with in depth explanation that will make you confident to explain javascript to your manager as well as your grandmother. Of course, we will talk about the most confusing parts of JavaScript that includes, notorious \u201cthis\u201d, mysterious \u201cscope\u201d, obscure \u201choisting\u201d, cryptic \u201cclosure\u201d, ambiguous \u201cinheritance\u201d, heinous \u201cpass by value or ref\u201d, and many more.",
+        "title": "Are you sure, you know JavaScript",
+        "author": {
+            "name": "md khan",
+            "description": " Md khan is a curious JavaScript developer and a frequent speaker. He helps to organize monthly Chicago JavaScript meetups. His weekends are filled with the excitement of preparing talks, writing blogs for www.thatjsdude.com, making videos for https:\/\/www.youtube.com\/user\/khanLearning, or pulling out his hair to figure out how this new JavaScript library works. So, the only way, Md Khan gets enough sleep at night is to spend at least 6 hr per day in JavaScript. That could be by reading JavaScript Weekly or pushing code to github when his manager is not around. \r\n\r\nHe is simply addicted to JavaScript.  If you are still interested to read his job title (you might be an auto insurance agent), Md is a senior web developer at Nielsen, Chicago, IL.",
+            "image": "\/assets\/content\/speaker-photos\/khan_md.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Single page applications (SPA) are becoming more popular everyday. Due to their lack of reloading, fast interactivity and ability to separate the visual presentation from database activity (using RESTful APIs) a Single Page Application can turn a simple product into an impressive presentation. Complicated template logic can be hard to manage for a large project and some javascript frameworks can be overkill. This presentation will present the pros and cons of different Javascript Frameworks. When to use Angular or when to use a jQuery Plugin. We will analyze how each framework came to be, who maintains the codebase and top level components associated with the product.",
+        "title": "Choosing the Right Javascript for the Job",
+        "author": {
+            "name": "Adam Smith",
+            "description": " Adam Smith started building websites in 1996. From Geocities tables to fully responsive JS frameworks he continues to learn and push the boundaries of the web. Currently employed as lead developer at Wide Open Technologies in Wilmington North Carolina he focuses on e-Commerce frameworks and highly interactive web interfaces. His passions are javascript, impressive UIs and brewing beer.",
+            "image": "\/assets\/content\/speaker-photos\/smith_adam.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Expand the Toolbox: Using Node.js for advanced shell scripting \r\n\r\nStart leveraging your Javascript knowledge on the server with Node.js. We'll discuss practical tips for how to approach learning and using the Node.js platform. \r\n\r\nThe majority of online tutorials focus on creating web applications, which require that you also learn Express and MongoDB alongside the core platform. Node.js already has a bit of a learning curve to understand its nuances and strengths -- so let's instead learn the platform from the ground up.\r\n\r\nWe'll cover Node's many core components and how to utilize external libraries. From there, we'll learn how to leverage Node.js in shell scripting, and cover specific use cases like using streaming for data transformation and injestion, watching directories for changes, forking multiple processes and wrangling asyncronous workflow.\r\n\r\nStrong experience with Javascript is recommended.",
+        "title": "Expand the Toolbox: Using Node.js for advanced shell scripting",
+        "author": {
+            "name": "Matthew Eash",
+            "description": " Matthew Eash is an enterprise architect, lead developer and data guru that is currently heading up multiple Big Data transformation, analysis and visualization initiatives for a national research lab.",
+            "image": "\/assets\/content\/speaker-photos\/eash_matthew.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "The author of the Configise configuration management library for Node will demonstrate the library and show how it applies functional programming techniques within JavaScript for very productive code. More importantly, he will demonstrate and explore how to think about writing code in such a way that functional programming answers arise naturally, leading to much simpler, shorter, cleaner JavaScript.",
+        "title": "Functional JavaScript in the Real World",
+        "author": {
+            "name": "Robert Fischer",
+            "description": " Robert Fischer is an open source software developer, IT manager, speaker, author and consultant. He wrote \"Grails Persistence with GORM and GSQL\", and is currently working on another book on Java 8 technologies. Fischer has written for JSMag on \"Functional JavaScript\". He has also founded open source projects in Java, Groovy, OCaml, and JavaScript, including projects providing configuration management, database migration, compiler infrastructures, and Ajax support. He has spoken nationally, including speaking on the \"No Fluff, Just Stuff\" tour, on topics including functional programming languages, concurrent programming, build systems, and software development leadership. Robert lives in Durham, NC, with his wife, newborn baby girl, and dog.",
+            "image": "\/assets\/content\/speaker-photos\/fischer_robert.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Learn how to create interactive data visualizations in Javascript using the D3 library.\r\n\r\nTired of the same old bar and pie charts? Learn the basics of crafting your own custom data visualizations, in order to create more understandable and interactive interfaces over your data.\r\n\r\nWe'll cover the basics in D3 for processing data and creating custom visualizations in SVG. We'll explore a wide variety of examples, then expand further with interactions and transitions.\r\n\r\nStrong experience with Javascript and CSS is recommended. Being decent at math helps too.",
+        "title": "Hands On with D3: Let your data do the talking",
+        "author": {
+            "name": "Matthew Eash",
+            "description": " Matthew Eash is an enterprise architect, lead developer and data guru that is currently heading up multiple Big Data transformation, analysis and visualization initiatives for a national research lab.",
+            "image": "\/assets\/content\/speaker-photos\/eash_matthew.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Those days of dumping JQuery blindly have gone. In 95% of the cases, you have easier, faster and build in alternative. Moreover, the so called \"best practices\" that you have been trusting for years could actually harm your application.\r\n\r\nYou don\u2019t need to be an expert to write high performance JavaScript.\r\n\r\nThe goal of this session is to explain critical\/confusing parts of JavaScript like scope, closure, hoisting, event bubbles, DOM manipulation, etc. so that your grandma can understand and make her own standards or best practices for you. Besides, modern tools that could make you a rock star to debug performance related issues will also be demonstrated.\r\n\r\n\u201cDon\u2019t trust a rule, trust your tool\u201d. \"Explore and ask before you jump. Don't belly flop.\"",
+        "title": "High Performance JavaScript",
+        "author": {
+            "name": "md khan",
+            "description": " Md khan is a curious JavaScript developer and a frequent speaker. He helps to organize monthly Chicago JavaScript meetups. His weekends are filled with the excitement of preparing talks, writing blogs for www.thatjsdude.com, making videos for https:\/\/www.youtube.com\/user\/khanLearning, or pulling out his hair to figure out how this new JavaScript library works. So, the only way, Md Khan gets enough sleep at night is to spend at least 6 hr per day in JavaScript. That could be by reading JavaScript Weekly or pushing code to github when his manager is not around. \r\n\r\nHe is simply addicted to JavaScript.  If you are still interested to read his job title (you might be an auto insurance agent), Md is a senior web developer at Nielsen, Chicago, IL.",
+            "image": "\/assets\/content\/speaker-photos\/khan_md.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "I will be the first to admit that JavaScript was the most confusing thing I have ever tried to learn. Lessons learned in school did not prepare me for things like prototype inheritance and the prototype chain, closures, functions as first-class object, functions with their own functions, the changing \"this\" scope, the various ways to create objects, variable hoisting , and other confusing JavaScript topic. Come learn what I have learned about what Douglas Crockford calls \"The World's Most Misunderstood Programming Language\".",
+        "title": "Leveling-Up at Javascript: Understanding the Confusing Bits",
+        "author": {
+            "name": "Jason Dean",
+            "description": " Currently employed by Minnesota State Colleges and Universities (MnSCU) and working at Dakota County Technical College, Jason Dean has been working in Information Technology for 14 years, focusing on application security for much of that time. As veteran of the U.S. Coast Guard, Jason was trained in both physical and information security and holds a Bachelor of Science degree in Information Technology Management from American Military University. He keeps busy working (on-and-off) toward a graduate degree, speaking at and organizing conferences, spending time with his wife and three children in Farmington, MN, and blogging at http:\/\/www.12robots.com.",
+            "image": "\/assets\/content\/speaker-photos\/dean_jason.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "This session is all about fun stuff to do with JavaScript. From flying things, to robotics, to anything.  While Skynet sent a terminator here to say \"I'll be back,\" JavaScript replied with \"don't call it a comeback....\"\r\n\r\nThis session will cover various libraries for robotics, arduino, as well as devices and accessing APIs.  This session is not about building a web application, it's about preparing ourselves to use JavaScript to take back our machines from Skynet.",
+        "title": "Our JavaScript can beat up Skynet",
+        "author": {
+            "name": "Adrian Pomilio",
+            "description": " I have presented at NCDevCon and various other conferences in the past regarding JavaScript, CSS, Nodejs, HTML5, Agile, and UX.",
+            "image": "\/assets\/content\/speaker-photos\/pomilio_adrian.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "One of the hardest parts of web development is writing code in a form that allows it to be reused in other places.  Most developers agree that code reuse is a virtue, but don't necessarily know how to create reusable code on the web. \r\n\r\nSome new standards and libraries are coming that aim to make this easier.  Especially exciting is the arrival of web-components, a W3C spec designed to allow for creation of encapsulated chunks of web code that can be reused cleanly, without requiring a specific application structure.\r\n\r\nThis talk will take a high level view at the different component strategies available today, (including ReactJS, KnockoutJS and Polymer) as well as the web component future.",
+        "title": "Towards a Component Based Web",
+        "author": {
+            "name": "Ben McCormick",
+            "description": " I'm Ben McCormick, a Software Engineer at Windsor Circle with a focus on Front End Web Development.  I've had the opportunity to work with a wide variety of Javascript Frameworks over the past few years, and I'm currently excited about the changes ES6 and Web Components are going to bring.",
+            "image": "\/assets\/content\/speaker-photos\/mccormick_ben.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Apache Cordova is an open source project that provides a platform compose of apis, packaging, and tools, to build native apps for the different mobile platforms such like Apple iOS, Android, BlackBerry, Windows Phone 8, an others. The project helps web developers use their programming skills to create hybrid Apps which can be distributed in the different Apps Stores. This sessions will start by giving a quick overview of the different parts of the architecture for the new version of Apache Cordova 3. Also will go deep into creating a sample app for iOS and Android sharing common code, then deploying and debugging the App on a smartphone, and adding cloud storage to persist and share data using one of the modern mobile backend as a services (MBaaS) that make it very easy to enable mobile Apps to make the data transparently available on all devices with minimum investment on time and resources.",
+        "title": "Building Cloud enable Hybrid Mobile Applications using HTML, JS, and CSS with Apache Cordova and Bluemix",
+        "author": {
+            "name": "Carlos Santana",
+            "description": " Carlos is a Software Engineer working on mobile application development tools for IBM Worklight Platform. He is an Apache Cordova committer and involved on leveraging open source technologies within IBM\u2019s MobileFirst organization. He joined IBM 12 years ago after graduating from the University of Puerto Rico RUM in Electrical and Computer Engineering, moved to NC and completed a Master of Computer Science @ NCSU. At IBM his being working with mobile hybrid development for the last 4 years, using Apache Cordova he released a customer facing App to the different App Stores for iOS, Android, and BlackBerry and now his focus is helping developers with tools to develop native and hybrid apps in the enterprise using IBM Worklight.\r\nTwitter http:\/\/twitter.com\/csantanapr  \r\nGitHub http:\/\/github.com\/csantanapr",
+            "image": "\/assets\/content\/speaker-photos\/santana_carlos.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Mobile and real-time push enabled applications are having a fundamental impact on the way you design the next generation of your business applications. In this session, you will see how to quickly build an HTML5 Mobile Hybrid application leveraging jQuery Mobile, Apache Cordova\/Phonegap with push notifications via APNS and GCM using free and open source Eclipse-based tooling. This will be a demonstration heavy session so come prepared.",
+        "title": "HTML5 Hybrid Mobile Development using Eclipse",
+        "author": {
+            "name": "Burr Sutter",
+            "description": " Burr Sutter is responsible for the middleware developer\u2019s experience, covering tools and frameworks at Red Hat. Burr is currently an Oracle Java Champion, and was previously president of the Atlanta Java Users Group, founder of the DevNexus conference, and founder of the Atlanta chapter of the IASA",
+            "image": "\/assets\/content\/speaker-photos\/sutter_burr.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Lessons learned from the mistakes and challenges encountered developing and delivering a hybrid application. Starting from just a basic understanding of JavaScript and web development, we'll review important decisions such as how to choose a framework, creating the architecture, basic design, and testing the application. We will also discuss common issues with hybrid applications including performance issues and debugging.",
+        "title": "Hybrid Gone Wrong",
+        "author": {
+            "name": "Jared Siirila",
+            "description": " Jared Siirila is an Advisory Software Engineer who has worked in several different areas of software development. For the past several years he has been working on web front-end development and hybrid apps for Android and iOS. His team designed and developed a new hybrid app for iOS, Android, and BlackBerry 7.",
+            "image": "\/assets\/content\/speaker-photos\/siirila_jared.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Creating compelling mobile apps start with good UX. In this session we'll take a look at what it takes to create a mobile app from the UX side of the fence. We'll start with experience maps, to task flows, wireframes, design plans, testing and prototyping. The workflow of UX.",
+        "title": "UX and the Mobile App",
+        "author": {
+            "name": "Dee Sadler",
+            "description": " 2014 will make 5 very honored years as speaker at NCDevCon. Dee is an Adobe geek being a Community Professional, Web and UX User Group Manager and a demo (Freelance) geek. She often speaks at, and runs events for Adobe like the Creative Cloud events this year. To support her Adobe habit, Dee is a Manager on a UX team creating mobile applications and prototypes for testing. She has also been an Adobe Certified Instructor for over 16 years for both design and development applications..",
+            "image": "\/assets\/content\/speaker-photos\/sadler_dee.jpg"
+        }
+    },
+    {
+        "category": "Security",
+        "description": "Most security presentation to developers are a dry rehashing of OWASP Top Ten; do this and don't do that with terse snippets of code.\r\n\r\nThis session aims to be different in that the tools that are available to hackers will be demonstrated to show how a web application is attacked. Using the OWASP Top Ten as a guide, a combination of vulnerabilities will be used to attack a demonstration application. Two tools that will be highlighted are sqlmap, BeEF (Browser Exploitation Framework), Metasploit, and published exploit scripts.\r\n\r\n * Recent events in security and hacking\r\n * Overview of OWASP 2013 Top Ten\r\n * Show how attacks are never a single issue, but combination of vulnerabilities \r\n * See what SQL Injection and password compromise really look like\r\n * See why XSS is a serious vulnerability\r\n * See authentication bypass in action\r\n * Quick overview of Web Application Firewalls and Web Vulnerability Scanners",
+        "title": "Web Penetration and Hacking Tools",
+        "author": {
+            "name": "David Epler",
+            "description": " David Epler is a Security Architect with AboutWeb in Rockville, MD. As a member of AboutWeb's solutions team, he has built, deployed, and maintained systems compliant with the most demanding regulations and mandates needed to pass security certification and accreditation for Federal Government clients.\r\n\r\nAlong with the blog he maintains, he is responsible for creating and maintaining Unofficial Updater 2 which makes patching ColdFusion 8 and 9 significantly easier. He also contributed the Security chapter for Learn CF in a Week David has been a speaker at various user groups and conferences like CNCDevCon, cf.Objective(), and Adobe Government Technology Summit.",
+            "image": "\/assets\/content\/speaker-photos\/epler_david.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "A code-review of sorts where we go over some of the real-world situations when things just don't go the way the Stack Overflow Gods say they should. We'll look at the pros and cons of solutions in these situations and the lessons hopefully learned along the way.\r\n\r\nDescription of target audience: Developers that write apps in the real world, that have deadlines, and have to solve real problems that don't always fit nicely in a box.\r\n\r\nAssumed knowledge for the topic: Intermediate level of ColdFusion (or similar language) and some experience with OOP (but by no means will you need to be an expert...in fact, if you call yourself an 'expert' you'll probably think this talk is beneath you...and if that's the case, I'd encourage you to attend even moreso. ;)\r\n\r\nObjective of the topic: We all see lots of \"well I would never do it THAT way\" comments on blog posts, mailing lists, and the all-mighty Stack Overflow. But what about when you HAVE to do it that way? Let's look at some of these situations and talk about different solutions that might not be the most elegant, but solved the problem, and helped us learn something for making the next version of our app better.\r\n\r\nQualification: I've been running a software consulting business for the last 6 years. Several of my big projects have involved inheriting large spaghetti-code projects, and having to figure out ways to add new features without rewriting everything from scratch. This isn't always clean, or elegant. The goal isn't always to write something that is blog-worthy, the goal is to solve a client's issue in the given time-frame, often with a terrible codebase.\r\n\r\nMain points:\r\n\r\n1. When is it BETTER to have errors emailed to the team instead of stored in a logging tool (Yes, there is a time for this).\r\n2. Can you do things like add Bootstrap to an old table-based web app? (Yes, there are still some of these out in the wild.) And what happens when you do so?\r\n3. An explanation of technical debt and why it's important.\r\n4. Some real code situations where incurring a little technical debt was necessary.\r\n5. Some lessons learned when these situations have presented themselves, so we can improve things in the future.",
+        "title": "Best Practices are Best, Except When They're Not",
+        "author": {
+            "name": "Nolan Erck",
+            "description": " Nolan Erck has been developing software professionally for more than 18 years, starting in the video game industry and advancing to web development in 1999. He has worked on high profile projects for LucasArts, Maxis, Lisa \"Left Eye\" Lopes, and Schools Credit Union, among others. His list of credits includes Grim Fandango, Star Wars: The Phantom Menace, SimPark, and SimSafari. \r\n\r\nNolan currently manages SacInteractive and is an active member of the Web Developer community, giving presentations on Object-Oriented Programming and Web Development for groups across the country. Nolan is an in-demand consultant, providing training and development experience for a variety of companies.",
+            "image": "\/assets\/content\/speaker-photos\/erck_nolan.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Learn how version control can improve your development cycle and make your life easier. Why you should rid yourself of all that commented out old code and remove files labeled 'old' and 'backup'. We'll go over the version control buzz words like branching, forking, merging and reverting as well as how centralized and distributed version control differ from each other. Move away from that manual system and gain piece of mind with version control.",
+        "title": "Better Living Through Version Control",
+        "author": {
+            "name": "Daria Norris",
+            "description": " Daria Norris resides in Philadelphia and has been a ColdFusion developer since 1996, getting her start in a corporate library where she developed a checkout system that evolved into a Competitive Intelligence search engine. She currently works with a remote development team on corporate and government web sites.  Her past work experience is with custom library applications and an enterprise level Knowledge Management application.  She has a passion making information easier to find.",
+            "image": "\/assets\/content\/speaker-photos\/norris_daria.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Applications are built around domain and business concepts. As developers, we model these concepts and their relationships all the time in our heads, on whiteboards, and in code. Then we perform mental gymnastics translating objects and relationships into tables, rows and columns. Wouldn't it be better if our data storage thought the same way we do? This session describes a few types of problems that relational databases and many contemporary NOSQL solutions have trouble modeling, and how graph databases are a solution to those problems. Along the way, we will be introduced to the graph database Neo4j, will see how to interact with it via the Cypher query language, and learn how to start modeling our own application data as graphs.",
+        "title": "Connecting With Data: Graph Databases",
+        "author": {
+            "name": "Josh Adell",
+            "description": " Josh has been a software developer specializing in web applications since 2002. He lives in Durham, NC, working in PHP, Javascript, and SQL for ServiceTrade, a startup dedicated to making the facilities services industry more efficient for vendors and customers. As the creator of Neo4jPHP, a PHP library for working with the Neo4j graph database, Josh enjoys evangelizing graph databases and architectures to anyone foolish enough to ask about them. In his spare time, Josh enjoys puttering around with new technologies, vegetable gardening, reading about pretty much anything, [tabletop|video]-gaming, geocaching and winning at bar trivia.",
+            "image": "\/assets\/content\/speaker-photos\/adell_josh.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Dependency Injection is a very common pattern used in modern web development. It's not specific to Java or ColdFusion or JavaScript...but it's equally awesome in all of those! And in other languages too! We'll look at some of the problems that Dependency Injection helps to solve; we'll look at some related concepts such as \"aspect oriented programming\" (AOP), and inversion of control (IOC); and show you how adding a DI framework to your app might be just the magic your app needs!\r\n\r\nTarget Audience\r\n\r\nPeople that want to know what Dependency Injection is and when\/why I should use it. You've heard other terms like \"inversion of control\" and \"aspect oriented programming\" thrown around and aren't sure what they mean. Maybe you're a FW\/1 user and want to know why everyone is excited that the new version of FW\/1 will include DI\/1. Or you just want to know what ColdSpring does -- we'll cover that too. (This talk will not be ColdFusion specific. Java and JavaScript programmers will equally benefit from the content.)\r\n\r\nAssumed Knowledge\r\n\r\nFor this talk we'll assume you are pretty familiar with classes and objects (in whatever language you prefer...JavaScript, ColdFusion, etc). You've built a variety of classes\/objects in some of your projects, and are familiar with OO concepts such as inheritance and composition.\r\n\r\nMain Points\r\n\r\n1. What is Dependency Injection?\r\n2. When \/ why would I use this in my projects?\r\n3. Intro to Aspect-Oriented Programming (or AOP).\r\n4. Intro to Inversion of Control (IOC).\r\n5. What is \"Bean Management\"?\r\n6. Code samples in a variety of languages showing when it might be useful to add some DI magic into your application.",
+        "title": "Dependency Injection, why is it awesome and why should I care?",
+        "author": {
+            "name": "Nolan Erck",
+            "description": " Nolan Erck has been developing software professionally for more than 18 years, starting in the video game industry and advancing to web development in 1999. He has worked on high profile projects for LucasArts, Maxis, Lisa \"Left Eye\" Lopes, and Schools Credit Union, among others. His list of credits includes Grim Fandango, Star Wars: The Phantom Menace, SimPark, and SimSafari. \r\n\r\nNolan currently manages SacInteractive and is an active member of the Web Developer community, giving presentations on Object-Oriented Programming and Web Development for groups across the country. Nolan is an in-demand consultant, providing training and development experience for a variety of companies.",
+            "image": "\/assets\/content\/speaker-photos\/erck_nolan.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Jenkins works for companies with a single product, that's great, but how do companies with dozens of projects in various languages and environments implement it? We will cover this and other issues a custom development firm faces when trying to utilize Jenkins.",
+        "title": "Jenkins in a custom development world",
+        "author": {
+            "name": "Greg Wilson",
+            "description": " Greg is the development team lead at BlueRidge Interactive and has over 14 years experience in software development.  His background is expansive including systems administration for manufacturing facilities that utilized computer driven machines to software development of custom applications in a wide variety of platforms and languages.",
+            "image": "\/assets\/content\/speaker-photos\/wilson_greg.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Too often people struggle to build an application end-to-end that they can showcase to potential customers to get validation. They worry about the time it takes to get setup, learn a new framework, design, and eventually deploy!\r\n\r\nIn this session, Poornima will walk participants through a quick step-by-step process for quickly creating a prototype using the Ember JS framework. Poornima will also cover the use of tools like Twitter Bootstrap for design.",
+        "title": "Learn to Build a Beautiful Prototype to Validate Your Product Idea",
+        "author": {
+            "name": "Poornima Vijayashanker",
+            "description": " Poornima Vijayashanker is a software engineer, speaker, blogger, and entrepreneur. Formerly, founding engineer at Mint.com. She has gone on to start her own startups: BizeeBee, a CRM solution for fitness businesses, and Femgineer, an education company that teaches tech professionals how to build products and companies. Most recently, Poornima was invited to teach at Duke University\u2019s Pratt School of Engineering, and be an EIR (entrepreneur-in-residence) at 500 Startups.\r\n\r\nWhen she's not building products and companies she's practicing Bikram yoga, running, or cooking!",
+            "image": "\/assets\/content\/speaker-photos\/vijayashanker_poornima.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "This session focuses on how to manage a highly active codebase using infrastructure tools. Examples will all be \"real world\" examples using actual stories from customers and applications. All the examples shown will be mash ups of ColdFusion, DB, Mobile, and flavors of JS.  \r\n\r\nThe tools in play will be  source control, continuous integration (jenkins), Code Review (Crucible and Fisheye), best practice guidance (CF Webtools standard), Wiki, and briefly unit testing (which deserves it's own session). We will focus on successful change management and effective deployment strategies.\r\n\r\nThis session will be funny, entertaining and lively. I give you my word as a CFG.",
+        "title": "SDLC Stories from the real world",
+        "author": {
+            "name": "Mark Kruger",
+            "description": " Mark is the owner of CF Webtools in Omaha NE. CF Webtools is a development shop focused on ColdFusion with 30+ advanced CF developers servicing some 80 customers. Mark has been a speaker at past NCDevCon events as well as at CF.Objective and MAX. Mark helps manage and host the Nebraska ColdFusion User Group. His blog, coldfusionmuse.com, is read by most ColdFusion community members. Mark is an accomplished and entertaining speaker with wide experience as well as being a ColdFusion guru.",
+            "image": "\/assets\/content\/speaker-photos\/kruger_mark.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "You\u2019re an expert developer, peacefully composing code into a profoundly elegant masterpiece, when suddenly your boss rushes in with the Next Big Idea that will Revolutionize The Way People Use The Internet. He\u2019s on his way to pitch to a VC, and stops by to describe the Idea in excited terms. After a 30 second elevator pitch, he pops the question: \u201cSo, Ricky, how long do you think it will take to build this thing-a-ma-bob?\u201d\r\n\r\nWhat do you say?\r\n\r\nCome and learn 10 Pro Tips that will cover your back, save your job, and keep your boss\u2019s shirt.",
+        "title": "Software Estimation Pro Tips",
+        "author": {
+            "name": "Jonathon Hill",
+            "description": " I'm currently a freelance, self-taught developer with over 5 years of full-time PHP experience. I was the Director of Development at Brandmovers in Atlanta, GA, and help out as a steering committee member of the Atlanta PHP Meetup Group. I contribute to several open-source projects and blog at http:\/\/jonathonhill.net\/.",
+            "image": "\/assets\/content\/speaker-photos\/hill_jonathon.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Programming and databases go together like peas and carrots. It doesn't matter if you are building a web application, a mobile application, desktop software, or an API, chances are it is interacting with a database of some sort. Unfortunately, most programmers don't know enough about database systems to really use them to their full potential. Sure, they may have plenty of practice creating things like tables and stored procedures, but very few of them get the opportunity to go much beyond that. I know this, because I was once one of those programmers. I would just use the database for not much more than a simple container for storing information.\r\n\r\nBut that changed recently. After having moved full time into the world of databases I've learned many new things that would have made my life as a programmer easier and my applications much more efficient.  In this session I will discuss some useful features in Microsoft SQL Server that you probably aren't aware of.  Highlighting each specific feature, how you can use it, and why you should use it, I will provide direct explanations that can be incorporated immediately into your daily development (without all of the overly technical DBA mumbo-jumbo).  Regardless of the programming language you use, if you use SQL Server you\u2019ll want to attend this session.",
+        "title": "SQL Server Tips for Everyday Programmers",
+        "author": {
+            "name": "Eric Cobb",
+            "description": " Eric Cobb is a seasoned IT professional with extensive experience in advanced application and database development.  After a 15 year programming career as a web and software developer, Eric decided to move full time into the world of databases. Having always had a strong interest in SQL Server he earned his Microsoft Certified Solutions Expert (MCSE): Data Platform certification in 2013, and is currently working on his new book \"SQL Server Tips for Everyday Programmers\".",
+            "image": "\/assets\/content\/speaker-photos\/cobb_eric.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "In this session we will dive into what makes the marriage between AngularJS and ColdFusion work together in holy matrimony. The pro's, the con's, the do's, the dont's, the good, the bad, the ugly.",
+        "title": "Do you AngularJS take ColdFusion to be your lawfully wedded husband?",
+        "author": {
+            "name": "Greg Wilson",
+            "description": " Greg is the development team lead at BlueRidge Interactive and has over 14 years experience in software development.  His background is expansive including systems administration for manufacturing facilities that utilized computer driven machines to software development of custom applications in a wide variety of platforms and languages.",
+            "image": "\/assets\/content\/speaker-photos\/wilson_greg.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "This session will give everyone an introduction to the new mobile features offered by ColdFusion and cfclient. If you are interested in what cfclient has to offer, not sure what cfclient does, or hate the idea of cfclient, then this session is for you.\r\n\r\nIn this session we will explore the features on offer with cfclient and create some mobile applications from start to finish. We will go through the steps of debugging our application using multiple tools as well as look at remote inspection and the deployment process. By the end of the session you will have multiple application you created installed on your device of choice.",
+        "title": "Getting the Lowdown on CFClient",
+        "author": {
+            "name": "Simon Free",
+            "description": " Simon Free has extensive experience in the online space. As an ACP, an ACI, and Senior Application Developer for Logistical Athletic Solutions, Simon has proven his skills in both the educational and development arenas. Constantly learning and sharing his knowledge, Simon is a trusted name in the conference community. His education is evident in his ability to produce high profile projects ranging from elaborate ecommerce applications to editorial CMS platforms for increasing the workflow within the publishing industry. Simon\u2019s technology background includes development in ColdFusion, jQuery and PhoneGap.",
+            "image": "\/assets\/content\/speaker-photos\/free_simon.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Prepare to be surprised! In this talk, veteran CF troubleshooter and presenter Charlie Arehart will continue his tradition of identifying hidden gems, this time in CF11. Sure, we hear all about the big, new features, or some that wow certain developers, but in every release of CF there are always lots of little things that go unheralded, and this is just as true in CF11 as ever. Some may solve a long-standing problem for you, or provide a new technique, whether related to coding, troubleshooting, administration, enterprise integration, and more.",
+        "title": "Hidden Gems in CF 11",
+        "author": {
+            "name": "Charlie Arehart",
+            "description": " A veteran ColdFusion troubleshooter who's worked with CF since 1997 and in enterprise IT for more than three decades, Charlie Arehart (@carehart) is a longtime contributor to the community and has for several years been a recognized Adobe Community Professional, Adobe Forums MVP, ColdFusion Customer Advisory Board member, and more. An independent consultant, he provides short-term, remote, on-demand troubleshooting\/tuning assistance for organizations of all sizes and CF experience levels (carehart.org\/consulting).",
+            "image": "\/assets\/content\/speaker-photos\/arehart_charlie.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "A ColdFusion-centric introduction to object-oriented programming.  This session teaches the basic principles of objects, classes, methods, polymorphism, inheritance, super classes, and we'll also discuss some theory of Model-View-Controller frameworks. In this session we'll learn by building an actual application!",
+        "title": "OOP upside yo head!",
+        "author": {
+            "name": "Kris Korsmo",
+            "description": " Kris Korsmo is an Adobe Certified Expert, ColdFusion, with interests in best practices and process automation.  He has spoken previously at cfObjective(ANZ) in 2012 and held a BOF at cfObjective() in 2013 on automation and TDD.",
+            "image": "\/assets\/content\/speaker-photos\/korsmo_kris.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "This session will begin with a brief introduction to MVC (Model-View-Controller) frameworks, and the advantages of developing applications using MVC frameworks. After that the rest of the session will be spent on:\r\n1) Going through the legacy code for a small ColdFusion application\r\n2) Refactoring the legacy code to use Framework One\r\n3) Refactoring the legacy code to use ColdBox",
+        "title": "Refactoring your legacy app to a MVC Framework",
+        "author": {
+            "name": "Anant Pradhan",
+            "description": " Anant started developing web based applications in 2006 using ColdFusion, PHP, JavaScript, HTML and CSS. He enjoys enterprise ColdFusion development and has expertise in developing backend architecture. He is a big fan of Object Oriented Programming methodologies and design patterns, especially Model-View-Controller.\r\n\r\nAnant is an active member of the Triangle Area ColdFusion User Group (TACFUG). He has a Masters in Computer Science from UNC Chapel Hill, and has spoken previously at various conferences including NCDevCon and cfObjective.",
+            "image": "\/assets\/content\/speaker-photos\/pradhan_anant.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Design Patterns are wonderful things, but how do you make the transition from procedural programming to object oriented design concepts?  Frameworks strive to make this job easier and Framework One (FW\\1) and Inject One (DI\\1) help simplify the process while keeping your code readable and logical.  We'll go over the best practices to organize your code around MVC and a service architecture that turns complicated code into easy to learn conventions without having to create long configuration files.  Learn how to simplify your workload but still deliver complex systems with all the bells and whistles.",
+        "title": "Simplify Your Workload But Not Your Delivery",
+        "author": {
+            "name": "Daria Norris",
+            "description": " Daria Norris resides in Philadelphia and has been a ColdFusion developer since 1996, getting her start in a corporate library where she developed a checkout system that evolved into a Competitive Intelligence search engine. She currently works with a remote development team on corporate and government web sites.  Her past work experience is with custom library applications and an enterprise level Knowledge Management application.  She has a passion making information easier to find.",
+            "image": "\/assets\/content\/speaker-photos\/norris_daria.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Amazon Web Services provide a wide array of highly scalable tools which solve common problems in modern Web application development. ColdFusion fits right into the AWS ecosystem, and this session will show you just how easy it is to start using AWS in your ColdFusion applications. We'll look at:\r\n\r\n\u2022 Cheap, fast, and easy content storage thanks to ColdFusion's integration with AWS Simple Storage Service (S3)\r\n\u2022 Creating ColdFusion servers in AWS using the official Adobe ColdFusion Amazon Machine Image\r\n\u2022 Plug-in points for other AWS services in your ColdFusion applications\r\n\u2022 A reference architecture for running scalable ColdFusion applications in AWS\r\n\u2022 Some hard-earned lessons about running Web apps in AWS",
+        "title": "Start Using Amazon Web Services in Your ColdFusion Apps",
+        "author": {
+            "name": "Brian Klaas",
+            "description": " Brian Klaas is the Senior Web Systems Designer at the Johns Hopkins Bloomberg School of Public Health's Center for Teaching and Learning. As the architect for eLearning technology at the School, he leads a team that designs and delivers custom online courseware to students and members of the public health workforce around the globe. In addition to designing software and delivering courses, Brian is the manager of the Johns Hopkins Adobe User Group, teaches \"Introduction to Online Learning,\" and leads faculty training and development courses. Brian has presented on software development and eLearning at conferences throughout the country, including cf.Objective(), NCDevCon, the Adobe ColdFusion Summit, Adobe MAX, UBTech, and CUE.",
+            "image": "\/assets\/content\/speaker-photos\/klaas_brian.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Far too often we set up some kind of user friendly error handler, that sends us a copy of the error dump, but once our site goes live and is getting hit by hackers, and search bots, and having routine timeouts for whatever reason, we get deluged by so many emails that we just throw those errors into a folder and ignore them. But there's a better way! Learn how to set up a robust error handler that can send you lots of debug information while still handling issues like bots and hack attempts, commonly thrown errors you don't care about, secure information being included, and more. We'll also look at integrating our finished error handler with the excellent open source project Bug Log for further enhancing its capabilities and making it easier for individual users on the project to handle their subscriptions to receiving error reports from the site.",
+        "title": "Stop Ignoring Your Error Messages!",
+        "author": {
+            "name": "Mary Jo Sminkey",
+            "description": " I've  been coding in CF for around 20 years now, most well known for my ecommerce software CFWebstore, one of the first complete ecommerce platforms done in ColdFusion. These days I work as a Senior Web Developer at CFWebtools, where I oversee a multi-million dollar ecommerce site for classic car parts. In my spare time, I have a wide variety of hobbies and interests, including playing handbells, cooking and baking, folding advanced origami, digital scrapbooking, photography, game playing, and training and showing my dogs in various sports.",
+            "image": "\/assets\/content\/speaker-photos\/sminkey_mary jo.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Legacy code. It can be the death of your sanity!  A simple bug can take hours or even days to find. You just want to toss the whole code base and rewrite from scratch! But who has that kind of time? And why throw the baby out with the bath water? Your business logic is probably fine, its just the code that needs an overhaul.  \r\n\r\nThis session, based on an actual case, offers ideas on how to massage that old embarrassing code into something you can understand, troubleshoot, and even proudly show off. Your will learn about documentation strategies that help you map out the logic, hear suggestions on  how to modularize your application, get tips on using testing and frameworks to smooth out the process, and find out about what pitfalls could befall (and have befallen) the process.  The most important takeaway though will be that slow and steady wins the race. The session offers a road map on how to tame that legacy beast in manageable steps without being overwhelmed.  \r\n\r\nThe majority of the code discussed will center around ColdFusion with some discussion of JavaScript as well.\r\n\r\nPull that legacy code out of the past and save your sanity in the process!",
+        "title": "Taming the Legacy Beast: Turning wild old code into a sleek new thoroughbred.",
+        "author": {
+            "name": "Chris Laning",
+            "description": " A web developer since 1995 and a  ColdFusion developer since 1997, Chris has worked with Javascript, MSSQL, XML, XSL, ActionScript, ASP (pre .Net days), Oracle, and Real Media. He began editing audio for websites in 1998 and  got into podcasting in 1996. Currently he is a Senior Web Developer for FineStationery.com. He is also the current producer of the \u201cCFHour\u201d podcast. In his spare time he edits other podcasts and dabbles in voice-over work.He is also a dad, theatre guy, Disney geek, NASCAR fan, and political junkie.",
+            "image": "\/assets\/content\/speaker-photos\/laning_chris.jpg"
+        }
+    },
+    {
+        "category": "Design",
+        "description": "There are amazing and beautiful ways to combine CSS3 and JavaScript to create designs that would be nearly impossible in Photoshop. In this hands-on session you will learn 5 techniques that combine simple math, basic code and a touch of creativity to manipulate the fundamental elements of design in incredible ways. From compositions that look like only nature could create to highly technical fractal patterns, the endless possibilities of CSS+JavaScript do not disappoint. Designers and coders alike will leave this collaborative session with practical skills and a new-found sense creativity.",
+        "title": "Reinventing Creativity with CSS3 + JavaScript",
+        "author": {
+            "name": "David Ogden",
+            "description": " David lives in the woods of North Carolina with his wife and children. During the day he ventures into town where he envisions, launches, and grows web and mobile products. He has deep experience in both front-end and back-end web development. David is a founding member of the Triangle-based startup \"Userlite\" that helps tech entrepreneurs launch sooner and focus on product innovation.",
+            "image": "\/assets\/content\/speaker-photos\/ogden_david.jpg"
+        }
+    },
+    {
+        "category": "Design",
+        "description": "This session would discuss why websites like SquareSpace and Google tend to lead the way in user interface design and why websites like Yahoo, Yelp and other like-minded business seem to overwhelm their users. In a time where our minds seem to be overwhelmed with choices, businesses who capture the less is more movement will be the ones who succeed.",
+        "title": "Why Less Will Always Be More",
+        "author": {
+            "name": "Josh Hines",
+            "description": " I come from a background of 12 years experience in some sort of marketing. From telemarketing to digital marketing, I got a good idea of the types of marketing communications that appeal to customers and keep their attention. I've also worked for a handful of tech companies in the triangle including: Global Software, Atlantic BT and Red Hat.",
+            "image": "\/assets\/content\/speaker-photos\/hines_josh.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "This session would describe what are the best practices of writing RESTful APIs. What are the different tools to create and test these APIs? What are the common pitfalls and how to avoid them? What are some of the industries best public APIs, etc. This session might also include a quick and easy hands-on session to fire and launch some APIs in the cloud using Play! Framework or Vert.X.",
+        "title": "APIs - The Good, the Bad and the Ugly",
+        "author": {
+            "name": "Nikhil Bendre",
+            "description": " Nikhil graduated from Clemson University in 2012 with a Masters Degree\r\nin Computer Science with focus on Web Services, Distributed Programming\r\nand Service Oriented Architecture and has passion for startups, tech meetups \r\nand hackathons.\r\n\r\nHe is a Software Engineer at ServiceNow and recently moved out to San Diego.\r\nServiceNow is the industry-leading cloud platform provider for building\r\nenterprise applications. \r\n\r\nHe was an API architect at Air-Watch in Atlanta, which is the world\u2019s\r\nleader in enterprise mobility management. AirWatch was recently acquired by VMWare, Inc in January 2014 for $1.54 billion.",
+            "image": "\/assets\/content\/speaker-photos\/bendre_nikhil.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "To the Batmobile!\r\nAtomic batteries to power, turbines to speed, ready to make some desktop applications with Node.js!\r\n\r\nAtom-shell by Github is the Batmobile for HTML5. Your website can already zip around Gotham city fighting crime, but sometimes you need more power and tools. Atom-shell combines a Chromium front end with the power of Node.js, allowing you to make some powerful desktop applications on OSX, Windows, or Linux.\r\n\r\nThis session covers how to build an HTML5 based application utilizing features from Node.js that were never possible in your browser. Beginner front-enders will love the ease at which we can create applications, while seasoned veterans will love the potential that Node.js has to offer for creating anything you can think of.",
+        "title": "Atomic Desktop Power with Node.js",
+        "author": {
+            "name": "Ben Farrell",
+            "description": " Whatever you call him... a front-ender, a creative developer, full stack engineer, Ben just loves to have fun pushing lots of pixels and making them do his bidding. Ben likes to try new things and talk about it whether they work or don't.",
+            "image": "\/assets\/content\/speaker-photos\/farrell_ben.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "Responsive Web Design has been a buzzword since the term was first coined in May 2010. Come find out what this emerging technology is all about as you are introduced to the basics of Responsive Web Design. We'll cover your current options when it comes to designing your own website and we'll also discuss emerging best practices, common misconceptions, and a few examples from industry leaders. We will also take a look at how you can test your responsive design without owning one of each device out there.",
+        "title": "Getting Started with Responsive Web Design",
+        "author": {
+            "name": "Matt Busche",
+            "description": " Matt Busche is an Application Developer at Nationwide Insurance, specializing in CFML, JavaScript, Groovy\/Grails, TDD, and overall web development. Matt also ocassionally writes Ruby\/jRuby code. Matt recently spoke at cf.Objective() in Minneapolis.",
+            "image": "\/assets\/content\/speaker-photos\/busche_matt.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "As developers we are tasked with building applications which simplify lives of our end users but how do we manage our code? How does we transform our raw code to a deployable asset? The answer to this seemingly simply question can be pretty complicated.\r\n\r\nThe simple answer could be to bury your head in the sand and do nothing. You could even do a whole bunch of manual stuff but both of those options suck. A better solution is to use a task automation tool and Grunt may be the right tool for you.\r\n\r\nIf your project requires the ability to transform, validate, compile, along with much more you will need a higher level tool to perform these actions. One such tool is GruntJs. In this session we will learn how to use GruntJs to build, transform and deploy a web project.",
+        "title": "GruntJs - Funny Name, Awesomely powerful tool",
+        "author": {
+            "name": "Derik Whittaker",
+            "description": " Derik Whittaker is a Software Architect who specializes in all things .Net. Derik has been building enterprise systems on top of the .Net technology stack for over 14 years and along the way has picked up a thing or two about how to create enterprise scale software systems.\r\n\r\nDuring his 14 year career Derik has worked in many different industries ranging from Marking, Healthcare, Retail, Insurance, Automotive and Online Entertainment. Currently Derik is working for a Technology startup (orgspan.com) in Durham North Carolina leading their windows phone and windows modern UI application development. Derik believes that the job of a developer is more than just turning syntax into working 1\u2019s and 0\u2019s. He believes that our job is to produce a system which gets out of the users way and allows them to do their job better.\r\n\r\nDerik has been awarded the Microsoft MVP in C# for the past 6 years. Along with being an MVP he is also a member of the ASPInsiders group. Derik is also a Pluralsight Author with multiple course under his belt. He is a community leader, helping to organize events such as Chicago Codeapalooza, Chicago Code Camp and the Raleigh Code Camp.\r\n\r\nOutside of his day job you can find Derik hanging out with his beautiful wife Tiffany and his 2 awesome boys Brendan and Ryan",
+            "image": "\/assets\/content\/speaker-photos\/whittaker_derik.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "In this session I'll show how easy it is to build an effective and attractive cross browser user interface using Bootstrap as well as other complimentary bits. Even the design challenged developer can present make a great looking application!",
+        "title": "How To Build A Sexy User Interface For The Design Challenged Developer",
+        "author": {
+            "name": "Todd Sharp",
+            "description": " Todd is a long time member of the ColdFusion community who has served as an ACP and spoken at numerous events such as CFUnited, cf.Objective, Adobe MAX and the original CFinNC. He is currently focused on UI\/UX, but has tons of server side experience with ORM and MVC frameworks.",
+            "image": "\/assets\/content\/speaker-photos\/sharp_todd.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "So you've heard about Selenium, but what's it really all about? Maybe you've tried writing some tests, but soon found yourself frustrated trying to get them to work reliably. If you are interested in using this great tool to do integration testing for your websites and help automate your testing, this is the talk for you! We'll look at all the kinds of things you can do in Selenium, how to approach your testing, and use a live site as an example of building a complete suite of tests that will ensure clean, bug-free site updates.",
+        "title": "Real World Selenium Testing",
+        "author": {
+            "name": "Mary Jo Sminkey",
+            "description": " I've  been coding in CF for around 20 years now, most well known for my ecommerce software CFWebstore, one of the first complete ecommerce platforms done in ColdFusion. These days I work as a Senior Web Developer at CFWebtools, where I oversee a multi-million dollar ecommerce site for classic car parts. In my spare time, I have a wide variety of hobbies and interests, including playing handbells, cooking and baking, folding advanced origami, digital scrapbooking, photography, game playing, and training and showing my dogs in various sports.",
+            "image": "\/assets\/content\/speaker-photos\/sminkey_mary jo.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "This presentation will provide the basis to build awesome web sites with modern HTML & CSS techniques, simplifying HTML and resulting in more maintainable styling. I'll introduce you to the features available in the popular CSS pre-processors, how you can use them to be more productive, and give real-world examples of how they'll benefit you. You'll learn the foundation of these techniques with the LESS pre-processor, and how to change the way you think about styling to build a better web.",
+        "title": "Rethink CSS: clean & maintainable web sites with LESS",
+        "author": {
+            "name": "Keith Zantow",
+            "description": " Keith is a software engineer with over 10 years of industry experience designing full-stack web applications with a variety of languages and technologies. He's implemented everything from full-blown object relational mapping systems to complete UI overhauls and always brings a unique perspective to any development team.",
+            "image": "\/assets\/content\/speaker-photos\/zantow_keith.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "The last few years have seen spectacular, sweeping changes in the paradigms of front-end website production.  New technology standards, frameworks innovations, design trends, and the always-growing mobile market have totally reshaped approaches to building the presentation layer.  \r\n\r\nThis hands-on lab will investigate a powerful medley of front-end production frameworks, standards, and tools.  \r\n\r\nHTML\r\n - Getting Responsive with Bootstrap 3\r\n - Embracing relative metrics instead of pixels\r\n - Starting mobile-first and content-out\r\n\r\nCSS\r\n - Using the SASS preprocessor with the Compass authoring framework\r\n - Staying scalable, modular, and manageable\r\n\r\nJavaScript\r\n - Templating your HTML with Mustache JS\r\n\r\n\r\nWho Should Attend:\r\nAnyone that wishes to diversify their front-end development toolset.  A general knowledge of HTML and CSS will be assumed.",
+        "title": "The New UI : Staying Strong in the Winds of Change",
+        "author": {
+            "name": "Eric Carlisle",
+            "description": " Eric Carlisle is the Lead UI\/UX Architect for Lookingglass, a firm specializing in cyber threat intelligence management.  Eric has 18 years experience in full-stack website development, working with clients including Under Armour, Toyota, World Wildlife Fund, and Johns Hopkins University.",
+            "image": "\/assets\/content\/speaker-photos\/carlisle_eric.jpg"
+        }
+    },
+    {
+        "category": "HTML5 CSS Web",
+        "description": "In order \"to promote design commonality and improved user experience across enterprise IT products and applications,\" [1] Red Hat created the PatternFly open interface project on top of Bootstrap. Bootstrap is \"the most popular front-end framework for developing responsive, mobile first projects on the web\" [2].  Bootstrap was chosen as the foundation for PatternFly because many of product development teams within Red Hat had already implemented Bootstrap in their applications or were looking to do so. But Bootstrap alone did not cover every need of Red Hat's application development teams, so PatternFly incorporates other widgets and functionality in addition to a custom look and feel that distinctly brands each product that utilizes it.  This session will show you how to use Bootstrap to create a common UI across a portfolio of products, using Red Hat's creation of PatternFly as an illustration.\r\n\r\n[1] https:\/\/www.patternfly.org\r\n[2] http:\/\/getbootstrap.com",
+        "title": "Using Bootstrap to create a common UI across products",
+        "author": {
+            "name": "Robb Hamilton Greg Sheremeta",
+            "description": " About Robb Hamilton\r\n\r\nRobb is a front-end developer and UX designer at Red Hat with over 16 years of experience designing and building web sites and applications.  As the PatternFly development lead, Robb works with other designers and developers to create and maintain PatternFly.  When not at work, Robb enjoys running, hiking, and a fine IPA.\r\n\r\nAbout Greg Sheremeta\r\n\r\nGreg is a mostly front-end developer at Red Hat with about 15 years experience in full-stack web development. Currently focusing on UI infrastructure on the oVirt project, Greg was responsible for porting oVirt over to using PatternFly for its look-and-feel. When not at work, Greg enjoys working, traveling, or hanging out with his wife and six wonderful rescue dogs.",
+            "image": "\/assets\/content\/speaker-photos\/greg sheremeta_robb hamilton.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "It\u2019s not a tips and tricks or best practice talk. Rather,  it\u2019s a ground up discussion about why core of JavaScript is developed in certain way and what benefits you could get from the eye opening understanding of JavaScript. After this talk you can feel and explain core of javascript concepts other than following so called best practices blindly. \r\n\r\nThe goal of this talk is to get rid of your confusion with in depth explanation that will make you confident to explain javascript to your manager as well as your grandmother. Of course, we will talk about the most confusing parts of JavaScript that includes, notorious \u201cthis\u201d, mysterious \u201cscope\u201d, obscure \u201choisting\u201d, cryptic \u201cclosure\u201d, ambiguous \u201cinheritance\u201d, heinous \u201cpass by value or ref\u201d, and many more.",
+        "title": "Are you sure, you know JavaScript",
+        "author": {
+            "name": "md khan",
+            "description": " Md khan is a curious JavaScript developer and a frequent speaker. He helps to organize monthly Chicago JavaScript meetups. His weekends are filled with the excitement of preparing talks, writing blogs for www.thatjsdude.com, making videos for https:\/\/www.youtube.com\/user\/khanLearning, or pulling out his hair to figure out how this new JavaScript library works. So, the only way, Md Khan gets enough sleep at night is to spend at least 6 hr per day in JavaScript. That could be by reading JavaScript Weekly or pushing code to github when his manager is not around. \r\n\r\nHe is simply addicted to JavaScript.  If you are still interested to read his job title (you might be an auto insurance agent), Md is a senior web developer at Nielsen, Chicago, IL.",
+            "image": "\/assets\/content\/speaker-photos\/khan_md.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Single page applications (SPA) are becoming more popular everyday. Due to their lack of reloading, fast interactivity and ability to separate the visual presentation from database activity (using RESTful APIs) a Single Page Application can turn a simple product into an impressive presentation. Complicated template logic can be hard to manage for a large project and some javascript frameworks can be overkill. This presentation will present the pros and cons of different Javascript Frameworks. When to use Angular or when to use a jQuery Plugin. We will analyze how each framework came to be, who maintains the codebase and top level components associated with the product.",
+        "title": "Choosing the Right Javascript for the Job",
+        "author": {
+            "name": "Adam Smith",
+            "description": " Adam Smith started building websites in 1996. From Geocities tables to fully responsive JS frameworks he continues to learn and push the boundaries of the web. Currently employed as lead developer at Wide Open Technologies in Wilmington North Carolina he focuses on e-Commerce frameworks and highly interactive web interfaces. His passions are javascript, impressive UIs and brewing beer.",
+            "image": "\/assets\/content\/speaker-photos\/smith_adam.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Expand the Toolbox: Using Node.js for advanced shell scripting \r\n\r\nStart leveraging your Javascript knowledge on the server with Node.js. We'll discuss practical tips for how to approach learning and using the Node.js platform. \r\n\r\nThe majority of online tutorials focus on creating web applications, which require that you also learn Express and MongoDB alongside the core platform. Node.js already has a bit of a learning curve to understand its nuances and strengths -- so let's instead learn the platform from the ground up.\r\n\r\nWe'll cover Node's many core components and how to utilize external libraries. From there, we'll learn how to leverage Node.js in shell scripting, and cover specific use cases like using streaming for data transformation and injestion, watching directories for changes, forking multiple processes and wrangling asyncronous workflow.\r\n\r\nStrong experience with Javascript is recommended.",
+        "title": "Expand the Toolbox: Using Node.js for advanced shell scripting",
+        "author": {
+            "name": "Matthew Eash",
+            "description": " Matthew Eash is an enterprise architect, lead developer and data guru that is currently heading up multiple Big Data transformation, analysis and visualization initiatives for a national research lab.",
+            "image": "\/assets\/content\/speaker-photos\/eash_matthew.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "The author of the Configise configuration management library for Node will demonstrate the library and show how it applies functional programming techniques within JavaScript for very productive code. More importantly, he will demonstrate and explore how to think about writing code in such a way that functional programming answers arise naturally, leading to much simpler, shorter, cleaner JavaScript.",
+        "title": "Functional JavaScript in the Real World",
+        "author": {
+            "name": "Robert Fischer",
+            "description": " Robert Fischer is an open source software developer, IT manager, speaker, author and consultant. He wrote \"Grails Persistence with GORM and GSQL\", and is currently working on another book on Java 8 technologies. Fischer has written for JSMag on \"Functional JavaScript\". He has also founded open source projects in Java, Groovy, OCaml, and JavaScript, including projects providing configuration management, database migration, compiler infrastructures, and Ajax support. He has spoken nationally, including speaking on the \"No Fluff, Just Stuff\" tour, on topics including functional programming languages, concurrent programming, build systems, and software development leadership. Robert lives in Durham, NC, with his wife, newborn baby girl, and dog.",
+            "image": "\/assets\/content\/speaker-photos\/fischer_robert.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Learn how to create interactive data visualizations in Javascript using the D3 library.\r\n\r\nTired of the same old bar and pie charts? Learn the basics of crafting your own custom data visualizations, in order to create more understandable and interactive interfaces over your data.\r\n\r\nWe'll cover the basics in D3 for processing data and creating custom visualizations in SVG. We'll explore a wide variety of examples, then expand further with interactions and transitions.\r\n\r\nStrong experience with Javascript and CSS is recommended. Being decent at math helps too.",
+        "title": "Hands On with D3: Let your data do the talking",
+        "author": {
+            "name": "Matthew Eash",
+            "description": " Matthew Eash is an enterprise architect, lead developer and data guru that is currently heading up multiple Big Data transformation, analysis and visualization initiatives for a national research lab.",
+            "image": "\/assets\/content\/speaker-photos\/eash_matthew.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "Those days of dumping JQuery blindly have gone. In 95% of the cases, you have easier, faster and build in alternative. Moreover, the so called \"best practices\" that you have been trusting for years could actually harm your application.\r\n\r\nYou don\u2019t need to be an expert to write high performance JavaScript.\r\n\r\nThe goal of this session is to explain critical\/confusing parts of JavaScript like scope, closure, hoisting, event bubbles, DOM manipulation, etc. so that your grandma can understand and make her own standards or best practices for you. Besides, modern tools that could make you a rock star to debug performance related issues will also be demonstrated.\r\n\r\n\u201cDon\u2019t trust a rule, trust your tool\u201d. \"Explore and ask before you jump. Don't belly flop.\"",
+        "title": "High Performance JavaScript",
+        "author": {
+            "name": "md khan",
+            "description": " Md khan is a curious JavaScript developer and a frequent speaker. He helps to organize monthly Chicago JavaScript meetups. His weekends are filled with the excitement of preparing talks, writing blogs for www.thatjsdude.com, making videos for https:\/\/www.youtube.com\/user\/khanLearning, or pulling out his hair to figure out how this new JavaScript library works. So, the only way, Md Khan gets enough sleep at night is to spend at least 6 hr per day in JavaScript. That could be by reading JavaScript Weekly or pushing code to github when his manager is not around. \r\n\r\nHe is simply addicted to JavaScript.  If you are still interested to read his job title (you might be an auto insurance agent), Md is a senior web developer at Nielsen, Chicago, IL.",
+            "image": "\/assets\/content\/speaker-photos\/khan_md.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "I will be the first to admit that JavaScript was the most confusing thing I have ever tried to learn. Lessons learned in school did not prepare me for things like prototype inheritance and the prototype chain, closures, functions as first-class object, functions with their own functions, the changing \"this\" scope, the various ways to create objects, variable hoisting , and other confusing JavaScript topic. Come learn what I have learned about what Douglas Crockford calls \"The World's Most Misunderstood Programming Language\".",
+        "title": "Leveling-Up at Javascript: Understanding the Confusing Bits",
+        "author": {
+            "name": "Jason Dean",
+            "description": " Currently employed by Minnesota State Colleges and Universities (MnSCU) and working at Dakota County Technical College, Jason Dean has been working in Information Technology for 14 years, focusing on application security for much of that time. As veteran of the U.S. Coast Guard, Jason was trained in both physical and information security and holds a Bachelor of Science degree in Information Technology Management from American Military University. He keeps busy working (on-and-off) toward a graduate degree, speaking at and organizing conferences, spending time with his wife and three children in Farmington, MN, and blogging at http:\/\/www.12robots.com.",
+            "image": "\/assets\/content\/speaker-photos\/dean_jason.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "This session is all about fun stuff to do with JavaScript. From flying things, to robotics, to anything.  While Skynet sent a terminator here to say \"I'll be back,\" JavaScript replied with \"don't call it a comeback....\"\r\n\r\nThis session will cover various libraries for robotics, arduino, as well as devices and accessing APIs.  This session is not about building a web application, it's about preparing ourselves to use JavaScript to take back our machines from Skynet.",
+        "title": "Our JavaScript can beat up Skynet",
+        "author": {
+            "name": "Adrian Pomilio",
+            "description": " I have presented at NCDevCon and various other conferences in the past regarding JavaScript, CSS, Nodejs, HTML5, Agile, and UX.",
+            "image": "\/assets\/content\/speaker-photos\/pomilio_adrian.jpg"
+        }
+    },
+    {
+        "category": "Javascript",
+        "description": "One of the hardest parts of web development is writing code in a form that allows it to be reused in other places.  Most developers agree that code reuse is a virtue, but don't necessarily know how to create reusable code on the web. \r\n\r\nSome new standards and libraries are coming that aim to make this easier.  Especially exciting is the arrival of web-components, a W3C spec designed to allow for creation of encapsulated chunks of web code that can be reused cleanly, without requiring a specific application structure.\r\n\r\nThis talk will take a high level view at the different component strategies available today, (including ReactJS, KnockoutJS and Polymer) as well as the web component future.",
+        "title": "Towards a Component Based Web",
+        "author": {
+            "name": "Ben McCormick",
+            "description": " I'm Ben McCormick, a Software Engineer at Windsor Circle with a focus on Front End Web Development.  I've had the opportunity to work with a wide variety of Javascript Frameworks over the past few years, and I'm currently excited about the changes ES6 and Web Components are going to bring.",
+            "image": "\/assets\/content\/speaker-photos\/mccormick_ben.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Apache Cordova is an open source project that provides a platform compose of apis, packaging, and tools, to build native apps for the different mobile platforms such like Apple iOS, Android, BlackBerry, Windows Phone 8, an others. The project helps web developers use their programming skills to create hybrid Apps which can be distributed in the different Apps Stores. This sessions will start by giving a quick overview of the different parts of the architecture for the new version of Apache Cordova 3. Also will go deep into creating a sample app for iOS and Android sharing common code, then deploying and debugging the App on a smartphone, and adding cloud storage to persist and share data using one of the modern mobile backend as a services (MBaaS) that make it very easy to enable mobile Apps to make the data transparently available on all devices with minimum investment on time and resources.",
+        "title": "Building Cloud enable Hybrid Mobile Applications using HTML, JS, and CSS with Apache Cordova and Bluemix",
+        "author": {
+            "name": "Carlos Santana",
+            "description": " Carlos is a Software Engineer working on mobile application development tools for IBM Worklight Platform. He is an Apache Cordova committer and involved on leveraging open source technologies within IBM\u2019s MobileFirst organization. He joined IBM 12 years ago after graduating from the University of Puerto Rico RUM in Electrical and Computer Engineering, moved to NC and completed a Master of Computer Science @ NCSU. At IBM his being working with mobile hybrid development for the last 4 years, using Apache Cordova he released a customer facing App to the different App Stores for iOS, Android, and BlackBerry and now his focus is helping developers with tools to develop native and hybrid apps in the enterprise using IBM Worklight.\r\nTwitter http:\/\/twitter.com\/csantanapr  \r\nGitHub http:\/\/github.com\/csantanapr",
+            "image": "\/assets\/content\/speaker-photos\/santana_carlos.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Mobile and real-time push enabled applications are having a fundamental impact on the way you design the next generation of your business applications. In this session, you will see how to quickly build an HTML5 Mobile Hybrid application leveraging jQuery Mobile, Apache Cordova\/Phonegap with push notifications via APNS and GCM using free and open source Eclipse-based tooling. This will be a demonstration heavy session so come prepared.",
+        "title": "HTML5 Hybrid Mobile Development using Eclipse",
+        "author": {
+            "name": "Burr Sutter",
+            "description": " Burr Sutter is responsible for the middleware developer\u2019s experience, covering tools and frameworks at Red Hat. Burr is currently an Oracle Java Champion, and was previously president of the Atlanta Java Users Group, founder of the DevNexus conference, and founder of the Atlanta chapter of the IASA",
+            "image": "\/assets\/content\/speaker-photos\/sutter_burr.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Lessons learned from the mistakes and challenges encountered developing and delivering a hybrid application. Starting from just a basic understanding of JavaScript and web development, we'll review important decisions such as how to choose a framework, creating the architecture, basic design, and testing the application. We will also discuss common issues with hybrid applications including performance issues and debugging.",
+        "title": "Hybrid Gone Wrong",
+        "author": {
+            "name": "Jared Siirila",
+            "description": " Jared Siirila is an Advisory Software Engineer who has worked in several different areas of software development. For the past several years he has been working on web front-end development and hybrid apps for Android and iOS. His team designed and developed a new hybrid app for iOS, Android, and BlackBerry 7.",
+            "image": "\/assets\/content\/speaker-photos\/siirila_jared.jpg"
+        }
+    },
+    {
+        "category": "Mobile",
+        "description": "Creating compelling mobile apps start with good UX. In this session we'll take a look at what it takes to create a mobile app from the UX side of the fence. We'll start with experience maps, to task flows, wireframes, design plans, testing and prototyping. The workflow of UX.",
+        "title": "UX and the Mobile App",
+        "author": {
+            "name": "Dee Sadler",
+            "description": " 2014 will make 5 very honored years as speaker at NCDevCon. Dee is an Adobe geek being a Community Professional, Web and UX User Group Manager and a demo (Freelance) geek. She often speaks at, and runs events for Adobe like the Creative Cloud events this year. To support her Adobe habit, Dee is a Manager on a UX team creating mobile applications and prototypes for testing. She has also been an Adobe Certified Instructor for over 16 years for both design and development applications..",
+            "image": "\/assets\/content\/speaker-photos\/sadler_dee.jpg"
+        }
+    },
+    {
+        "category": "Security",
+        "description": "Most security presentation to developers are a dry rehashing of OWASP Top Ten; do this and don't do that with terse snippets of code.\r\n\r\nThis session aims to be different in that the tools that are available to hackers will be demonstrated to show how a web application is attacked. Using the OWASP Top Ten as a guide, a combination of vulnerabilities will be used to attack a demonstration application. Two tools that will be highlighted are sqlmap, BeEF (Browser Exploitation Framework), Metasploit, and published exploit scripts.\r\n\r\n * Recent events in security and hacking\r\n * Overview of OWASP 2013 Top Ten\r\n * Show how attacks are never a single issue, but combination of vulnerabilities \r\n * See what SQL Injection and password compromise really look like\r\n * See why XSS is a serious vulnerability\r\n * See authentication bypass in action\r\n * Quick overview of Web Application Firewalls and Web Vulnerability Scanners",
+        "title": "Web Penetration and Hacking Tools",
+        "author": {
+            "name": "David Epler",
+            "description": " David Epler is a Security Architect with AboutWeb in Rockville, MD. As a member of AboutWeb's solutions team, he has built, deployed, and maintained systems compliant with the most demanding regulations and mandates needed to pass security certification and accreditation for Federal Government clients.\r\n\r\nAlong with the blog he maintains, he is responsible for creating and maintaining Unofficial Updater 2 which makes patching ColdFusion 8 and 9 significantly easier. He also contributed the Security chapter for Learn CF in a Week David has been a speaker at various user groups and conferences like CNCDevCon, cf.Objective(), and Adobe Government Technology Summit.",
+            "image": "\/assets\/content\/speaker-photos\/epler_david.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "A code-review of sorts where we go over some of the real-world situations when things just don't go the way the Stack Overflow Gods say they should. We'll look at the pros and cons of solutions in these situations and the lessons hopefully learned along the way.\r\n\r\nDescription of target audience: Developers that write apps in the real world, that have deadlines, and have to solve real problems that don't always fit nicely in a box.\r\n\r\nAssumed knowledge for the topic: Intermediate level of ColdFusion (or similar language) and some experience with OOP (but by no means will you need to be an expert...in fact, if you call yourself an 'expert' you'll probably think this talk is beneath you...and if that's the case, I'd encourage you to attend even moreso. ;)\r\n\r\nObjective of the topic: We all see lots of \"well I would never do it THAT way\" comments on blog posts, mailing lists, and the all-mighty Stack Overflow. But what about when you HAVE to do it that way? Let's look at some of these situations and talk about different solutions that might not be the most elegant, but solved the problem, and helped us learn something for making the next version of our app better.\r\n\r\nQualification: I've been running a software consulting business for the last 6 years. Several of my big projects have involved inheriting large spaghetti-code projects, and having to figure out ways to add new features without rewriting everything from scratch. This isn't always clean, or elegant. The goal isn't always to write something that is blog-worthy, the goal is to solve a client's issue in the given time-frame, often with a terrible codebase.\r\n\r\nMain points:\r\n\r\n1. When is it BETTER to have errors emailed to the team instead of stored in a logging tool (Yes, there is a time for this).\r\n2. Can you do things like add Bootstrap to an old table-based web app? (Yes, there are still some of these out in the wild.) And what happens when you do so?\r\n3. An explanation of technical debt and why it's important.\r\n4. Some real code situations where incurring a little technical debt was necessary.\r\n5. Some lessons learned when these situations have presented themselves, so we can improve things in the future.",
+        "title": "Best Practices are Best, Except When They're Not",
+        "author": {
+            "name": "Nolan Erck",
+            "description": " Nolan Erck has been developing software professionally for more than 18 years, starting in the video game industry and advancing to web development in 1999. He has worked on high profile projects for LucasArts, Maxis, Lisa \"Left Eye\" Lopes, and Schools Credit Union, among others. His list of credits includes Grim Fandango, Star Wars: The Phantom Menace, SimPark, and SimSafari. \r\n\r\nNolan currently manages SacInteractive and is an active member of the Web Developer community, giving presentations on Object-Oriented Programming and Web Development for groups across the country. Nolan is an in-demand consultant, providing training and development experience for a variety of companies.",
+            "image": "\/assets\/content\/speaker-photos\/erck_nolan.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Learn how version control can improve your development cycle and make your life easier. Why you should rid yourself of all that commented out old code and remove files labeled 'old' and 'backup'. We'll go over the version control buzz words like branching, forking, merging and reverting as well as how centralized and distributed version control differ from each other. Move away from that manual system and gain piece of mind with version control.",
+        "title": "Better Living Through Version Control",
+        "author": {
+            "name": "Daria Norris",
+            "description": " Daria Norris resides in Philadelphia and has been a ColdFusion developer since 1996, getting her start in a corporate library where she developed a checkout system that evolved into a Competitive Intelligence search engine. She currently works with a remote development team on corporate and government web sites.  Her past work experience is with custom library applications and an enterprise level Knowledge Management application.  She has a passion making information easier to find.",
+            "image": "\/assets\/content\/speaker-photos\/norris_daria.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Applications are built around domain and business concepts. As developers, we model these concepts and their relationships all the time in our heads, on whiteboards, and in code. Then we perform mental gymnastics translating objects and relationships into tables, rows and columns. Wouldn't it be better if our data storage thought the same way we do? This session describes a few types of problems that relational databases and many contemporary NOSQL solutions have trouble modeling, and how graph databases are a solution to those problems. Along the way, we will be introduced to the graph database Neo4j, will see how to interact with it via the Cypher query language, and learn how to start modeling our own application data as graphs.",
+        "title": "Connecting With Data: Graph Databases",
+        "author": {
+            "name": "Josh Adell",
+            "description": " Josh has been a software developer specializing in web applications since 2002. He lives in Durham, NC, working in PHP, Javascript, and SQL for ServiceTrade, a startup dedicated to making the facilities services industry more efficient for vendors and customers. As the creator of Neo4jPHP, a PHP library for working with the Neo4j graph database, Josh enjoys evangelizing graph databases and architectures to anyone foolish enough to ask about them. In his spare time, Josh enjoys puttering around with new technologies, vegetable gardening, reading about pretty much anything, [tabletop|video]-gaming, geocaching and winning at bar trivia.",
+            "image": "\/assets\/content\/speaker-photos\/adell_josh.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Dependency Injection is a very common pattern used in modern web development. It's not specific to Java or ColdFusion or JavaScript...but it's equally awesome in all of those! And in other languages too! We'll look at some of the problems that Dependency Injection helps to solve; we'll look at some related concepts such as \"aspect oriented programming\" (AOP), and inversion of control (IOC); and show you how adding a DI framework to your app might be just the magic your app needs!\r\n\r\nTarget Audience\r\n\r\nPeople that want to know what Dependency Injection is and when\/why I should use it. You've heard other terms like \"inversion of control\" and \"aspect oriented programming\" thrown around and aren't sure what they mean. Maybe you're a FW\/1 user and want to know why everyone is excited that the new version of FW\/1 will include DI\/1. Or you just want to know what ColdSpring does -- we'll cover that too. (This talk will not be ColdFusion specific. Java and JavaScript programmers will equally benefit from the content.)\r\n\r\nAssumed Knowledge\r\n\r\nFor this talk we'll assume you are pretty familiar with classes and objects (in whatever language you prefer...JavaScript, ColdFusion, etc). You've built a variety of classes\/objects in some of your projects, and are familiar with OO concepts such as inheritance and composition.\r\n\r\nMain Points\r\n\r\n1. What is Dependency Injection?\r\n2. When \/ why would I use this in my projects?\r\n3. Intro to Aspect-Oriented Programming (or AOP).\r\n4. Intro to Inversion of Control (IOC).\r\n5. What is \"Bean Management\"?\r\n6. Code samples in a variety of languages showing when it might be useful to add some DI magic into your application.",
+        "title": "Dependency Injection, why is it awesome and why should I care?",
+        "author": {
+            "name": "Nolan Erck",
+            "description": " Nolan Erck has been developing software professionally for more than 18 years, starting in the video game industry and advancing to web development in 1999. He has worked on high profile projects for LucasArts, Maxis, Lisa \"Left Eye\" Lopes, and Schools Credit Union, among others. His list of credits includes Grim Fandango, Star Wars: The Phantom Menace, SimPark, and SimSafari. \r\n\r\nNolan currently manages SacInteractive and is an active member of the Web Developer community, giving presentations on Object-Oriented Programming and Web Development for groups across the country. Nolan is an in-demand consultant, providing training and development experience for a variety of companies.",
+            "image": "\/assets\/content\/speaker-photos\/erck_nolan.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Jenkins works for companies with a single product, that's great, but how do companies with dozens of projects in various languages and environments implement it? We will cover this and other issues a custom development firm faces when trying to utilize Jenkins.",
+        "title": "Jenkins in a custom development world",
+        "author": {
+            "name": "Greg Wilson",
+            "description": " Greg is the development team lead at BlueRidge Interactive and has over 14 years experience in software development.  His background is expansive including systems administration for manufacturing facilities that utilized computer driven machines to software development of custom applications in a wide variety of platforms and languages.",
+            "image": "\/assets\/content\/speaker-photos\/wilson_greg.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Too often people struggle to build an application end-to-end that they can showcase to potential customers to get validation. They worry about the time it takes to get setup, learn a new framework, design, and eventually deploy!\r\n\r\nIn this session, Poornima will walk participants through a quick step-by-step process for quickly creating a prototype using the Ember JS framework. Poornima will also cover the use of tools like Twitter Bootstrap for design.",
+        "title": "Learn to Build a Beautiful Prototype to Validate Your Product Idea",
+        "author": {
+            "name": "Poornima Vijayashanker",
+            "description": " Poornima Vijayashanker is a software engineer, speaker, blogger, and entrepreneur. Formerly, founding engineer at Mint.com. She has gone on to start her own startups: BizeeBee, a CRM solution for fitness businesses, and Femgineer, an education company that teaches tech professionals how to build products and companies. Most recently, Poornima was invited to teach at Duke University\u2019s Pratt School of Engineering, and be an EIR (entrepreneur-in-residence) at 500 Startups.\r\n\r\nWhen she's not building products and companies she's practicing Bikram yoga, running, or cooking!",
+            "image": "\/assets\/content\/speaker-photos\/vijayashanker_poornima.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "This session focuses on how to manage a highly active codebase using infrastructure tools. Examples will all be \"real world\" examples using actual stories from customers and applications. All the examples shown will be mash ups of ColdFusion, DB, Mobile, and flavors of JS.  \r\n\r\nThe tools in play will be  source control, continuous integration (jenkins), Code Review (Crucible and Fisheye), best practice guidance (CF Webtools standard), Wiki, and briefly unit testing (which deserves it's own session). We will focus on successful change management and effective deployment strategies.\r\n\r\nThis session will be funny, entertaining and lively. I give you my word as a CFG.",
+        "title": "SDLC Stories from the real world",
+        "author": {
+            "name": "Mark Kruger",
+            "description": " Mark is the owner of CF Webtools in Omaha NE. CF Webtools is a development shop focused on ColdFusion with 30+ advanced CF developers servicing some 80 customers. Mark has been a speaker at past NCDevCon events as well as at CF.Objective and MAX. Mark helps manage and host the Nebraska ColdFusion User Group. His blog, coldfusionmuse.com, is read by most ColdFusion community members. Mark is an accomplished and entertaining speaker with wide experience as well as being a ColdFusion guru.",
+            "image": "\/assets\/content\/speaker-photos\/kruger_mark.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "You\u2019re an expert developer, peacefully composing code into a profoundly elegant masterpiece, when suddenly your boss rushes in with the Next Big Idea that will Revolutionize The Way People Use The Internet. He\u2019s on his way to pitch to a VC, and stops by to describe the Idea in excited terms. After a 30 second elevator pitch, he pops the question: \u201cSo, Ricky, how long do you think it will take to build this thing-a-ma-bob?\u201d\r\n\r\nWhat do you say?\r\n\r\nCome and learn 10 Pro Tips that will cover your back, save your job, and keep your boss\u2019s shirt.",
+        "title": "Software Estimation Pro Tips",
+        "author": {
+            "name": "Jonathon Hill",
+            "description": " I'm currently a freelance, self-taught developer with over 5 years of full-time PHP experience. I was the Director of Development at Brandmovers in Atlanta, GA, and help out as a steering committee member of the Atlanta PHP Meetup Group. I contribute to several open-source projects and blog at http:\/\/jonathonhill.net\/.",
+            "image": "\/assets\/content\/speaker-photos\/hill_jonathon.jpg"
+        }
+    },
+    {
+        "category": "Uncategorized",
+        "description": "Programming and databases go together like peas and carrots. It doesn't matter if you are building a web application, a mobile application, desktop software, or an API, chances are it is interacting with a database of some sort. Unfortunately, most programmers don't know enough about database systems to really use them to their full potential. Sure, they may have plenty of practice creating things like tables and stored procedures, but very few of them get the opportunity to go much beyond that. I know this, because I was once one of those programmers. I would just use the database for not much more than a simple container for storing information.\r\n\r\nBut that changed recently. After having moved full time into the world of databases I've learned many new things that would have made my life as a programmer easier and my applications much more efficient.  In this session I will discuss some useful features in Microsoft SQL Server that you probably aren't aware of.  Highlighting each specific feature, how you can use it, and why you should use it, I will provide direct explanations that can be incorporated immediately into your daily development (without all of the overly technical DBA mumbo-jumbo).  Regardless of the programming language you use, if you use SQL Server you\u2019ll want to attend this session.",
+        "title": "SQL Server Tips for Everyday Programmers",
+        "author": {
+            "name": "Eric Cobb",
+            "description": " Eric Cobb is a seasoned IT professional with extensive experience in advanced application and database development.  After a 15 year programming career as a web and software developer, Eric decided to move full time into the world of databases. Having always had a strong interest in SQL Server he earned his Microsoft Certified Solutions Expert (MCSE): Data Platform certification in 2013, and is currently working on his new book \"SQL Server Tips for Everyday Programmers\".",
+            "image": "\/assets\/content\/speaker-photos\/cobb_eric.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "In this session we will dive into what makes the marriage between AngularJS and ColdFusion work together in holy matrimony. The pro's, the con's, the do's, the dont's, the good, the bad, the ugly.",
+        "title": "Do you AngularJS take ColdFusion to be your lawfully wedded husband?",
+        "author": {
+            "name": "Greg Wilson",
+            "description": " Greg is the development team lead at BlueRidge Interactive and has over 14 years experience in software development.  His background is expansive including systems administration for manufacturing facilities that utilized computer driven machines to software development of custom applications in a wide variety of platforms and languages.",
+            "image": "\/assets\/content\/speaker-photos\/wilson_greg.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "This session will give everyone an introduction to the new mobile features offered by ColdFusion and cfclient. If you are interested in what cfclient has to offer, not sure what cfclient does, or hate the idea of cfclient, then this session is for you.\r\n\r\nIn this session we will explore the features on offer with cfclient and create some mobile applications from start to finish. We will go through the steps of debugging our application using multiple tools as well as look at remote inspection and the deployment process. By the end of the session you will have multiple application you created installed on your device of choice.",
+        "title": "Getting the Lowdown on CFClient",
+        "author": {
+            "name": "Simon Free",
+            "description": " Simon Free has extensive experience in the online space. As an ACP, an ACI, and Senior Application Developer for Logistical Athletic Solutions, Simon has proven his skills in both the educational and development arenas. Constantly learning and sharing his knowledge, Simon is a trusted name in the conference community. His education is evident in his ability to produce high profile projects ranging from elaborate ecommerce applications to editorial CMS platforms for increasing the workflow within the publishing industry. Simon\u2019s technology background includes development in ColdFusion, jQuery and PhoneGap.",
+            "image": "\/assets\/content\/speaker-photos\/free_simon.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Prepare to be surprised! In this talk, veteran CF troubleshooter and presenter Charlie Arehart will continue his tradition of identifying hidden gems, this time in CF11. Sure, we hear all about the big, new features, or some that wow certain developers, but in every release of CF there are always lots of little things that go unheralded, and this is just as true in CF11 as ever. Some may solve a long-standing problem for you, or provide a new technique, whether related to coding, troubleshooting, administration, enterprise integration, and more.",
+        "title": "Hidden Gems in CF 11",
+        "author": {
+            "name": "Charlie Arehart",
+            "description": " A veteran ColdFusion troubleshooter who's worked with CF since 1997 and in enterprise IT for more than three decades, Charlie Arehart (@carehart) is a longtime contributor to the community and has for several years been a recognized Adobe Community Professional, Adobe Forums MVP, ColdFusion Customer Advisory Board member, and more. An independent consultant, he provides short-term, remote, on-demand troubleshooting\/tuning assistance for organizations of all sizes and CF experience levels (carehart.org\/consulting).",
+            "image": "\/assets\/content\/speaker-photos\/arehart_charlie.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "A ColdFusion-centric introduction to object-oriented programming.  This session teaches the basic principles of objects, classes, methods, polymorphism, inheritance, super classes, and we'll also discuss some theory of Model-View-Controller frameworks. In this session we'll learn by building an actual application!",
+        "title": "OOP upside yo head!",
+        "author": {
+            "name": "Kris Korsmo",
+            "description": " Kris Korsmo is an Adobe Certified Expert, ColdFusion, with interests in best practices and process automation.  He has spoken previously at cfObjective(ANZ) in 2012 and held a BOF at cfObjective() in 2013 on automation and TDD.",
+            "image": "\/assets\/content\/speaker-photos\/korsmo_kris.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "This session will begin with a brief introduction to MVC (Model-View-Controller) frameworks, and the advantages of developing applications using MVC frameworks. After that the rest of the session will be spent on:\r\n1) Going through the legacy code for a small ColdFusion application\r\n2) Refactoring the legacy code to use Framework One\r\n3) Refactoring the legacy code to use ColdBox",
+        "title": "Refactoring your legacy app to a MVC Framework",
+        "author": {
+            "name": "Anant Pradhan",
+            "description": " Anant started developing web based applications in 2006 using ColdFusion, PHP, JavaScript, HTML and CSS. He enjoys enterprise ColdFusion development and has expertise in developing backend architecture. He is a big fan of Object Oriented Programming methodologies and design patterns, especially Model-View-Controller.\r\n\r\nAnant is an active member of the Triangle Area ColdFusion User Group (TACFUG). He has a Masters in Computer Science from UNC Chapel Hill, and has spoken previously at various conferences including NCDevCon and cfObjective.",
+            "image": "\/assets\/content\/speaker-photos\/pradhan_anant.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Design Patterns are wonderful things, but how do you make the transition from procedural programming to object oriented design concepts?  Frameworks strive to make this job easier and Framework One (FW\\1) and Inject One (DI\\1) help simplify the process while keeping your code readable and logical.  We'll go over the best practices to organize your code around MVC and a service architecture that turns complicated code into easy to learn conventions without having to create long configuration files.  Learn how to simplify your workload but still deliver complex systems with all the bells and whistles.",
+        "title": "Simplify Your Workload But Not Your Delivery",
+        "author": {
+            "name": "Daria Norris",
+            "description": " Daria Norris resides in Philadelphia and has been a ColdFusion developer since 1996, getting her start in a corporate library where she developed a checkout system that evolved into a Competitive Intelligence search engine. She currently works with a remote development team on corporate and government web sites.  Her past work experience is with custom library applications and an enterprise level Knowledge Management application.  She has a passion making information easier to find.",
+            "image": "\/assets\/content\/speaker-photos\/norris_daria.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Amazon Web Services provide a wide array of highly scalable tools which solve common problems in modern Web application development. ColdFusion fits right into the AWS ecosystem, and this session will show you just how easy it is to start using AWS in your ColdFusion applications. We'll look at:\r\n\r\n\u2022 Cheap, fast, and easy content storage thanks to ColdFusion's integration with AWS Simple Storage Service (S3)\r\n\u2022 Creating ColdFusion servers in AWS using the official Adobe ColdFusion Amazon Machine Image\r\n\u2022 Plug-in points for other AWS services in your ColdFusion applications\r\n\u2022 A reference architecture for running scalable ColdFusion applications in AWS\r\n\u2022 Some hard-earned lessons about running Web apps in AWS",
+        "title": "Start Using Amazon Web Services in Your ColdFusion Apps",
+        "author": {
+            "name": "Brian Klaas",
+            "description": " Brian Klaas is the Senior Web Systems Designer at the Johns Hopkins Bloomberg School of Public Health's Center for Teaching and Learning. As the architect for eLearning technology at the School, he leads a team that designs and delivers custom online courseware to students and members of the public health workforce around the globe. In addition to designing software and delivering courses, Brian is the manager of the Johns Hopkins Adobe User Group, teaches \"Introduction to Online Learning,\" and leads faculty training and development courses. Brian has presented on software development and eLearning at conferences throughout the country, including cf.Objective(), NCDevCon, the Adobe ColdFusion Summit, Adobe MAX, UBTech, and CUE.",
+            "image": "\/assets\/content\/speaker-photos\/klaas_brian.jpg"
+        }
+    },
+    {
+        "category": "ColdFusion",
+        "description": "Far too often we set up some kind of user friendly error handler, that sends us a copy of the error dump, but once our site goes live and is getting hit by hackers, and search bots, and having routine timeouts for whatever reason, we get deluged by so many emails that we just throw those errors into a folder and ignore them. But there's a better way! Learn how to set up a robust error handler that can send you lots of debug information while still handling issues like bots and hack attempts, commonly thrown errors you don't care about, secure information being included, and more. We'll also look at integrating our finished error handler with the excellent open source project Bug Log for further enhancing its capabilities and making it easier for individual users on the project to handle their subscriptions to receiving error reports from the site.",
+        "title": "Stop Ignoring Your Error Messages!",
+        "author": {
+            "name": "Mary Jo Sminkey",
+            "description": " I've  been coding in CF for around 20 years now, most well known for my ecommerce software CFWebstore, one of the first complete ecommerce platforms done in ColdFusion. These days I work as a Senior Web Developer at CFWebtools, where I oversee a multi-million dollar ecommerce site for classic car parts. In my spare time, I have a wide variety of hobbies and interests, including playing handbells, cooking and baking, folding advanced origami, digital scrapbooking, photography, game playing, and training and showing my dogs in various sports.",
+            "image": "\/assets\/content\/speaker-photos\/sminkey_mary jo.jpg"
         }
     },
     {

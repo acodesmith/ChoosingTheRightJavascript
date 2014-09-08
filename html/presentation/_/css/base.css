@@ -1,0 +1,17 @@
+/* line 3, ../sass/base.scss */
+.reveal i {
+  font-style: normal !important;
+}
+/* line 7, ../sass/base.scss */
+.reveal .no-list-style {
+  list-style: none;
+}
+/* line 11, ../sass/base.scss */
+.reveal pre {
+  background: #23241f;
+  min-width: 30em;
+}
+/* line 17, ../sass/base.scss */
+.reveal pre code.tall {
+  max-height: 700px;
+}

@@ -1,0 +1,22 @@
+.reveal {
+
+  i {
+    font-style: normal !important;
+  }
+
+  .no-list-style {
+    list-style: none;
+  }
+
+  pre {
+    background: #23241f;
+    min-width: 30em;
+
+    code {
+
+      &.tall {
+        max-height: 700px;
+      }
+    }
+  }
+}

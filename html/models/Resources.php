@@ -54,6 +54,7 @@ class Resources extends Model
         error_reporting(E_ALL);
         ini_set('display_errors',1);
         $sessions = [];
+        $titles = [];
         $html = self::parseBody($html);
         $spos = strpos($html,'<tr>');
         $epos = strpos($html,'</tr>');
@@ -68,6 +69,7 @@ class Resources extends Model
                     //echo 'Category'."<br />";
                     $category = preg_replace("/[\n\r]/","", strip_tags($content) );
                     $category = trim(preg_replace('/\t+/', '', $category));
+
                     $sessions['categories'][]=$category;
                 }else{
                     $start_title = strpos($content,'<h3>')+4;
@@ -82,17 +84,22 @@ class Resources extends Model
                     $a_img = substr($author_description,$a_img_s,$a_img_e-$a_img_s);
                     $author_description = str_replace($a_img,'',$author_description);
                     $a_img = str_replace('" />','',substr($a_img,strpos($a_img,'src="')+5));
+                    $title = substr($content,$start_title, strpos($content,'</h3>')-$start_title);
 
-                    $sessions['sessions'][] = [
-                        'category'=>$category,
-                        'description'=>substr($content,$start_description, strpos($content,'</p>')-$start_description),
-                        'title'=>substr($content,$start_title, strpos($content,'</h3>')-$start_title),
-                        'author'=>[
-                            'name'=>substr($content,$start_author_name, strpos($content,'</h3>', $start_author_name)-$start_author_name),
-                            'description'=>$author_description,
-                            'image'=>$a_img
-                        ],
-                    ];
+                    if(!in_array($title,$titles)){
+                        $titles[] = $title;
+
+                        $sessions['sessions'][] = [
+                            'category'=>$category,
+                            'description'=>substr($content,$start_description, strpos($content,'</p>')-$start_description),
+                            'title'=>$title,
+                            'author'=>[
+                                'name'=>substr($content,$start_author_name, strpos($content,'</h3>', $start_author_name)-$start_author_name),
+                                'description'=>$author_description,
+                                'image'=>$a_img
+                            ],
+                        ];
+                    }
                 }
             }
 

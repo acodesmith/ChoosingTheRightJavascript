@@ -17,18 +17,22 @@ $deferred.done(function(data){
      * Session View
      * @type {void|*}
      */
-    var SearchView = Backbone.View.extend({
+    SessionView = Backbone.View.extend({
         el: "#session_container",
         initialize: function(){
             this.render();
         },
-        render: function(){
+        render: function(data){
             // Compile the template using underscore
             var template = _.template( $("#session_template").html(), {} );
             // Load the compiled HTML into the Backbone "el"
             this.$el.html( template );
+        },
+        search: function(query, type){
+            var $models = this.collection.search(query, type); //this.collection.reset(  );
+            this.render($models);
         }
     });
 
-    //var search_view = new SearchView({ model: FilterCollection });
+    session_view = new SessionView({ collection: SessionCollection });
 });

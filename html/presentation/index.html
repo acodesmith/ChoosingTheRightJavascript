@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>
+            Choosing the Right Javascript
+		</title>
+
+		<link rel="stylesheet" href="_/lib/css/reveal.css">
+		<link rel="stylesheet" href="_/lib/css/theme/default.css">
+		<link rel="stylesheet" href="_/lib/css/font-awesome.css">
+		<link rel="stylesheet" href="_/lib/css/monokai_sublime.css">
+		<link rel="stylesheet" href="_/css/base.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section id="title">
+					<h2>Choosing the Right Javascript</h2>
+				</section>
+
+                <section id="intro">
+					<h3>
+                        Well Hello There!
+					</h3>
+					<ul class="no-list-style">
+                        <li>
+                            <i class="fa fa-user"></i>
+                            Adam Smith
+                        </li>
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            aCodeSmith.com
+                        </li>
+                        <li>
+                            <i class="fa fa-suitcase"></i>
+                            Wide Open Technologies
+                        </li>
+                        <li>
+                            <i class="fa fa-twitter"></i>
+                            @aCodeSmith
+                        </li>
+					</ul>
+				</section>
+
+                <section class="stack" id="where-is-js">
+
+                    <h3>
+                        Where is javascript today?
+                    </h3>
+
+                    <div class="fragment roll-in" data-fragment-index="1">
+                        <p>
+                            Asynchronous events, nested callbacks and confusing scope
+                        </p>
+                    </div>
+                    <div class="fragment" data-fragment-index="2">
+                        <pre>
+<code class="javascript">
+    $(".do-something").function(function(){
+        $(this).then(function(){
+            this.really(function(){
+                this.comeOn(function(){
+                    this.what(function(){
+                        return 'enough';
+                    });
+                });
+            });
+        });
+    });
+</code>
+                        </pre>
+                    </div>
+                    <h3 class="fragment" data-fragment-index="3">
+                        Frameworks, promises and JSON
+                    </h3>
+                </section>
+
+                <section id="rescue">
+
+
+<div class="fragment" data-fragment-index="1">
+    <h6>
+        jQuery Deferred
+    </h6>
+    <pre><code class="javascript">
+        $deferred = $.getJSON('/api/json/data');
+
+        $deferred.done(function(data){
+            //data is json object
+        });
+    </code></pre>
+</div>
+<div class="fragment" data-fragment-index="2">
+    <h6>
+        Backbone Promise
+    </h6>
+
+<pre>
+<code class="javascript">
+    this.model.save().always(function(obj) {
+        //obj.responseText is http get request
+    });
+</code>
+</pre>
+</div>
+<div class="fragment" data-fragment-index="3">
+    <h6>Angular Promise</h6>
+    <pre><code class="javascript">
+        app.factory('PromiseMe', function ($http, $q) {
+            return {
+                getResult: function() {
+                        $http.get('/api/json/data')
+                        .then(function(response) {
+                            //response is http get request
+                            return response.data;
+                        });
+                    }
+                }
+            };
+        });
+    </code></pre>
+</div>
+                </section>
+
+                <section id="spa">
+
+                    <h3>
+                        What is a Single Page Application?
+                    </h3>
+
+                    <blockquote>
+                        <p>
+                            A single-page application (SPA), also known as single-page interface (SPI), is a web application or web site that fits on a single web page with the goal of providing a more fluid user experience akin to a desktop application.
+                        </p>
+                        <footer>
+                            - <a href="http://en.wikipedia.org/wiki/Single-page_application"> Wikipedia</a>
+                        </footer>
+                    </blockquote>
+
+                </section>
+
+                <section id="spa-do">
+
+                    <h3>
+                        What does a SPA do?
+                    </h3>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            <strong>Parse JSON Data</strong><br/>
+                            <ul>
+                                <li>Flickr</li>
+                                <li>Twitter</li>
+                                <li>Facebook</li>
+                                <li>Custom API</li>
+                            </ul>
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Render views via reusable templates
+                            <pre><code class="html">
+&lt;script type=&quot;text/template&quot; id=&quot;template&quot;&gt;
+    &lt;h1&gt;&lt;%= title %&gt;&lt;/h1&gt;
+&lt;/script&gt;
+                            </code></pre>
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Handle interactions from the user (in real time?)
+                            <pre>
+                                <code class="javascript">
+SearchView = Backbone.View.extend({
+    events: {
+        "click input": "doSearch"
+    }
+});</code>
+                            </pre>
+                        </li>
+                    </ul>
+
+
+                </section>
+
+                <section id="when-to-us">
+                    <h3>
+                        When to use a framework and when to use a few libraries?
+                    </h3>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">What is a javascript framework?</li>
+                        <li class="fragment" data-fragment-index="2">Multiple Libraries</li>
+                        <li class="fragment" data-fragment-index="3">Retaining Statefulness</li>
+                        <li class="fragment" data-fragment-index="4">Complicated Template Logic</li>
+                    </ul>
+                </section>
+
+                <section id="differ">
+                    <h3>
+                        How do javascript frameworks differ from MVC frameworks?
+                    </h3>
+
+                    <ul>
+                        <li>
+                            Model View / ViewModel vs Controller Actions
+                        </li>
+                        <li>
+                            Related to application state
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="rest">
+                    <h3>
+                        Interacting with RESTful APIs.
+                    </h3>
+                    <ul>
+                        <li>Application programming interface
+                        </li>
+                        <li>Similar to HTTPS request: GET, PUT, POST, DELETE
+                        </li>
+                        <li>XML RPC
+                        </li>
+                        <li>True detachment from views
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="why">
+                    <h3>
+                        jQuery / Backbone / Angular
+                    </h3>
+                    <h4>
+                        Why chose these frameworks?
+                    </h4>
+                    <ul>
+                        <li>
+                            Well Established
+                        </li>
+                        <li>
+                            Stackoverflow.com
+                        </li>
+                        <li>
+                            Docs and User Groups
+                        </li>
+                        <li class="fragment" data-fragment-index="1">
+                            Differences
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="jquery">
+
+                    <h3>
+                        jQuery <span class="fragment" data-fragment-index="1">...is everywhere!</span>
+                    </h3>
+
+                    <ul>
+                        <li class="fragment" data-fragment-index="2">
+                            John Resig
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Used by over 60% of the 10,000 most visited websites.
+                        </li>
+                        <li class="fragment" data-fragment-index="4">
+                            Normalization, Ajax and Plugins
+                        </li>
+                        <li class="fragment" data-fragment-index="5">
+                            Versions - 1.11.X and 2.x.x
+                        </li>
+                        <li class="fragment" data-fragment-index="6">
+                            How many times can you write the same thing?
+                            <pre><code class="javascript">
+    $('button').click(function(event){
+        //Insert magic here
+    });
+
+    $('section').on('click','button',function(event){
+       //More magic
+    });
+                            </code></pre>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section id="jquery-core">
+                    <h3>jQuery Core</h3>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            Selector Object
+                            <pre><code class="javascript">
+    var $jQueryObject = $('div');
+
+    $jQueryObject.addClass('foo')
+        .removeClass('bar')
+        .text('Hello World')
+        .closest('section')
+        .append('&lt;h1&gt;New Title&lt;/h1&gt;');
+                            </code></pre>
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Ajax
+                            <pre><code class="javasscript">
+    $.ajax({
+        type: 'PUT',
+        data: $form.serialize(),
+        success: function(data) {
+            //Put complete callback
+        }
+    });
+                            </code></pre>
+                        </li>
+                    </ul>
+                </section>
+                <section id="jquery-core-2">
+                    <h3>jQuery More Core</h3>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            Plugins
+                            <ul>
+                                <li>jQuery UI</li>
+                                <li>lightbox</li>
+                                <li>fitVids</li>
+                            </ul>
+                            <pre><code class="javascript">
+    $('input').datePicker({
+        dateFormat: "yy-mm-dd"
+    });
+                                </code></pre>
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Extending
+                            <pre><code class="javascript">
+    $.fn.myCoolFunction = function(){
+        console.log('Be Cool');
+    }
+                            </code></pre>
+                        </li>
+                    </ul>
+                </section>
+                <section id="jquery-spa">
+                    <h3>
+                        Building a SPA with jQuery
+                        <i class="fa fa-frown-o"></i>
+                    </h3>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            Lots of overhead
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Custom router and controller
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Spaghetti code
+                        </li>
+                        <li class="fragment">
+                            <i class="fa fa-thumbs-down"></i> &nbsp;&nbsp;&nbsp; Don't Do It
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="backbone">
+                    <h3>
+                        Backbone Back-Story
+                    </h3>
+
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            Jeremy Ashkenas - also known for CoffeeScript
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Initial release	October 13, 2010
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Latest release February 2014
+                        </li>
+                        <li class="fragment" data-fragment-index="4">
+                            Used by AirBnB, USA Today, Grooveshark
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="backbone-core">
+                    <h3>
+                        Backbone core components
+                    </h3>
+
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            Events
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Models
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Collections
+                        </li>
+                        <li class="fragment" data-fragment-index="4">
+                            Views
+                        </li>
+                        <li class="fragment" data-fragment-index="5">
+                            Router
+                        </li>
+                        <li class="fragment" data-fragment-index="6">
+                            Sync
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <section id="backbone-events">
+                    <h3>Backbone Events</h3>
+                    <p>
+                        Native events in backbone are bound to both the collection, the view and the model.
+                    </p>
+                    <h6 class="fragment" data-fragment-index="1">Events</h6>
+                    <ul class="fragment" data-fragment-index="1">
+                        <li><code class="javascript">on</code></li>
+                        <li><code class="javascript">off</code></li>
+                        <li><code class="javascript">trigger</code></li>
+                        <li><code class="javascript">listenTo</code></li>
+                        <li><code class="javascript">stopListening</code></li>
+                    </ul>
+                </section>
+
+                <section id="backbone-model-joke">
+                    <h3>
+                        The Backbone Model
+                    </h3>
+
+                    <figure class="fragment" data-fragment-index="1">
+                        <img src="_/images/backbone-model.jpg" />
+                    </figure>
+
+                </section>
+
+                <section id="backbone-model">
+                    <h3>
+                        The Backbone Model
+                    </h3>
+                    <div>
+
+                        <pre><code class="javascript tall">
+    Car = Backbone.Model.extend({
+        defaults: {
+            make: null,
+            model: null,
+            year: null,
+            color: null,
+            tires: null,
+            oilChanged: null
+        },
+        changeOil: function(){
+            this.oilChanged = new Date();
+        },
+        initialize: function(){
+            //Fires on creation
+        }
+    });
+
+    pinto = new Car({
+        make: 'Ford',
+        model: 'Runabout',
+        year: '1973',
+        color: 'cherry red'
+    });
+
+    pinto.on('change:tires', function(){
+         //Call Dad - let him know you are safe
+    });
+
+                        </code></pre>
+
+                    </div>
+                </section>
+
+                <section id="backbone-collection">
+                    <h3>
+                        Backbone Collections
+                    </h3>
+                    <p>
+                        Collections are a group of models with self-contained functions and interact with the sync (aka the RESTful API)
+                    </p>
+                    <div class="fragment" data-fragment-index="1">
+
+                        <pre><code class="javascript">
+    CarGarage = Backbone.Collection.extend({
+        model: Car,
+        url: '/api/garage/',
+    });
+
+    JayLenoGarage = new CarGarage(
+        [
+            new Car({ make: 'Ford', model:'Highboy', year:'1932' }),
+            new Car({ make: 'Chevy', model:'C10', year:'1940' })
+        ]
+    );
+
+    JayLenoGarage.bind("add", function(car) {
+        alert("added " + car.get("make") + " from " + car.get("year"));
+    });
+
+    JayLenoGarage.add({ make: 'Ferrari', model: 'Barchetta', year: '1952' });
+                        </code></pre>
+
+                    </div>
+                </section>
+
+                <section id="backbone-view">
+                    <h3>
+                        Backbone Views
+                    </h3>
+                    <p>
+                        Backbone views are almost more convention than they are code — they don't determine anything about your HTML or CSS for you, and can be used with any JavaScript templating library. The general idea is to organize your interface into logical views, backed by models, each of which can be updated independently when the model changes, without having to redraw the page.
+                    </p>
+                </section>
+
+                <section id="backbone-view-example">
+    var DocumentRow = Backbone.View.extend({
+
+        tagName: "li",
+
+        className: "document-row",
+
+        events: {
+            "click .nextCar":          "open",
+            "click .button.edit":   "openEditDialog",
+            "click .button.delete": "destroy"
+        },
+
+        initialize: function() {
+            this.listenTo(this.model, "change", this.render);
+        },
+
+        render: function() {
+        ...
+        }
+
+    });
+                </section>
+			</div>
+
+		</div>
+        <script type="application/javascript" src="_/lib/js/highlight.pack.js"></script>
+		<script src="_/lib/js/reveal.min.js"></script>
+
+		<script>
+
+            hljs.initHighlightingOnLoad();
+			Reveal.initialize();
+
+		</script>
+
+	</body>
+</html>

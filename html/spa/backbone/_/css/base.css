@@ -1,0 +1,27 @@
+/* line 7, ../sass/base.scss */
+section {
+  margin: 4em 1em 0;
+}
+
+/* line 11, ../sass/base.scss */
+[data-category] {
+  position: relative;
+  padding: 1em 0;
+}
+/* line 15, ../sass/base.scss */
+[data-category]:before {
+  position: absolute;
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  content: attr(data-category);
+  top: 0;
+  left: 0;
+  padding: 0.25em 1em;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-align: right;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  background: #1d2935;
+}
