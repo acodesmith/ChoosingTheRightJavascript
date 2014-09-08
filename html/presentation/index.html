@@ -77,15 +77,13 @@
 </code>
                         </pre>
                     </div>
-                    <h3 class="fragment" data-fragment-index="3">
-                        Frameworks, promises and JSON
-                    </h3>
                 </section>
 
                 <section id="rescue">
-
+                    <h5>Frameworks, promises and JSON</h5>
 
 <div class="fragment" data-fragment-index="1">
+
     <h6>
         jQuery Deferred
     </h6>
@@ -487,7 +485,7 @@ SearchView = Backbone.View.extend({
                     </p>
                     <div class="fragment" data-fragment-index="1">
 
-                        <pre><code class="javascript">
+                        <pre><code class="javascript tall">
     CarGarage = Backbone.Collection.extend({
         model: Car,
         url: '/api/garage/',
@@ -514,34 +512,157 @@ SearchView = Backbone.View.extend({
                     <h3>
                         Backbone Views
                     </h3>
-                    <p>
-                        Backbone views are almost more convention than they are code — they don't determine anything about your HTML or CSS for you, and can be used with any JavaScript templating library. The general idea is to organize your interface into logical views, backed by models, each of which can be updated independently when the model changes, without having to redraw the page.
-                    </p>
+                    <blockquote>                                            
+                        <p>
+                            Backbone views are almost more convention than they are code — they don't determine anything about your HTML or CSS for you, and can be used with any JavaScript templating library. The general idea is to organize your interface into logical views, backed by models, each of which can be updated independently when the model changes, without having to redraw the page.
+                        </p>
+                        <footer>
+                            - <a href="http://backbonejs.org/#View">Backbone Docs</a>
+                        </footer>
+                    </blockquote>
                 </section>
 
                 <section id="backbone-view-example">
-    var DocumentRow = Backbone.View.extend({
-
-        tagName: "li",
-
+                    <h3>
+                        Backbone View
+                    </h3>
+                    <pre><code class="javascript tall">
+    var GarageDoor = Backbone.View.extend({
         className: "document-row",
-
+        el: 'section',
+        $el : $('section'),
         events: {
-            "click .nextCar":          "open",
+            "click .nextCar":       "open",
             "click .button.edit":   "openEditDialog",
             "click .button.delete": "destroy"
         },
-
+        openEditDialog: function(){
+            //called on a click event from the events object
+        },
         initialize: function() {
             this.listenTo(this.model, "change", this.render);
         },
-
         render: function() {
-        ...
+            this.$el.html( this.template( this.model.toJSON() ));
         }
-
     });
+                    </code></pre>
                 </section>
+
+                <section id="backbone-template">
+
+                    <h3>Backbone Templates</h3>
+
+                    <pre><code class="javascript tall">
+    &lt;script type=&quot;text/template&quot; id=&quot;template&quot;&gt;
+        &lt;h1&gt;&lt;%= title %&gt;&lt;/h1&gt;
+        &lt;% if (rating_count) { %&gt;
+            &lt;p class=&quot;rating&quot;&gt;
+                &lt;% for (var i = 1; i &lt;= 5; i++) { %&gt;
+                    &lt;% if (avg_rating &gt;= i) { %&gt;
+                        &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
+                            &lt;% } else if (avg_rating &gt; i - 1) { %&gt;
+                                &lt;i class=&quot;fa fa-star-half-o&quot;&gt;&lt;/i&gt;
+                            &lt;% } else { %&gt;
+                            &lt;i class=&quot;fa fa-star-o&quot;&gt;&lt;/i&gt;
+                        &lt;% } %&gt;
+                    &lt;% } %&gt;
+                (&lt;%= rating_count %&gt;)
+            &lt;/p&gt;
+        &lt;% } %&gt;
+    &lt;/script&gt;
+                    </code></pre>
+
+                </section>
+
+                <section id="backbone-tree">
+
+                    <h3>
+                        Backbone App <br />
+                        <small>Folder Structure</small>
+                    </h3>
+
+                    <pre><code class="javascript tall">
+                        /* File Structure
+                        ├── js
+                        │   ├── libs
+                        │   │   ├── jquery
+                        │   │   │   ├── jquery.min.js
+                        │   │   ├── backbone
+                        │   │   │   ├── backbone.min.js
+                        │   │   └── underscore
+                        │   │   │   ├── underscore.min.js
+                        │   ├── models
+                        │   │   ├── users.js
+                        │   │   └── projects.js
+                        │   ├── collections
+                        │   │   ├── users.js
+                        │   │   └── projects.js
+                        │   ├── views
+                        │   │   ├── projects
+                        │   │   │   ├── list.js
+                        │   │   │   └── edit.js
+                        │   │   └── users
+                        │   │       ├── list.js
+                        │   │       └── edit.js
+                        │   ├── router.js
+                        │   ├── app.js
+                        │   ├── main.js  // Bootstrap
+                        └── index.html
+                        */
+                    </code></pre>
+
+                </section>
+
+                <section id="backbone-app">
+
+                    <h3>Backbone Application Object</h3>
+
+                    <p>
+                        Stores information needed by other parts of the application.
+                    </p>
+
+                    <pre><code class="javascript">
+                        app = {};
+
+                        app.models = [];
+
+                        app.collections = [];
+
+                        app.templates = [];
+                    </code></pre>
+
+                </section>
+
+                <section id="backbone-god-object">
+                    <h3>
+                        The God Object
+                    </h3>
+
+                    <blockquote>
+                        <p>
+                            In object-oriented programming, a god object is an object that knows too much or does too much.
+                        </p>
+                        <footer>
+                            - <a href="http://en.wikipedia.org/wiki/God_object">Wikipedia</a>
+                        </footer>
+                    </blockquote>
+                </section>
+
+                <section id="angular">
+
+                    <h2>Angular</h2>
+
+                    <p>
+                        The kitchen sink and then some.
+                    </p>
+
+                    <div class="fragment" data-fragment-index="1">
+                        <img src="_/images/js-learning-curves.jpeg" alt="Angular Learning Curve"/>
+                    </div>
+
+                </section>
+
 			</div>
 
 		</div>
