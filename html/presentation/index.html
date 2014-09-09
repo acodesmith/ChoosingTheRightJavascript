@@ -212,7 +212,8 @@ SearchView = Backbone.View.extend({
 
                 <section id="rest">
                     <h3>
-                        Interacting with RESTful APIs.
+                        Interacting with RESTful APIs.<br />
+                        <small>Representational state transfer</small>
                     </h3>
                     <ul>
                         <li>Application programming interface
@@ -231,7 +232,7 @@ SearchView = Backbone.View.extend({
                         jQuery / Backbone / Angular
                     </h3>
                     <h4>
-                        Why chose these frameworks?
+                        Why chose these?
                     </h4>
                     <ul>
                         <li>
@@ -533,11 +534,12 @@ SearchView = Backbone.View.extend({
         $el : $('section'),
         events: {
             "click .nextCar":       "open",
-            "click .button.edit":   "openEditDialog",
+            "click .button.edit":   "openGarageDoor",
             "click .button.delete": "destroy"
         },
-        openEditDialog: function(){
+        openGarageDoor: function(){
             //called on a click event from the events object
+            //trigger css3 animation via dom manipulation
         },
         initialize: function() {
             this.listenTo(this.model, "change", this.render);
@@ -660,6 +662,44 @@ SearchView = Backbone.View.extend({
                     <div class="fragment" data-fragment-index="1">
                         <img src="_/images/js-learning-curves.jpeg" alt="Angular Learning Curve"/>
                     </div>
+
+                </section>
+
+                <section id="angular-components">
+
+                    <h3>Angular Components</h3>
+
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">ng directives
+                            <ul>
+                                <li>
+                                    ng-app
+                                </li>
+                                <li>
+                                    ng-controller
+                                </li>
+                                <li>
+                                    ng-view
+                                </li>
+                                <li>
+                                    ng-submit
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            $scope, $rootScope and object literals
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Controllers and routes
+                        </li>
+                        <li class="fragment" data-fragment-index="4">
+                            Two way data binding
+                        </li>
+                        <li class="fragment" data-fragment-index="5">
+                            Custom Directions <br />
+                            &lt;what-in-the-world&gt;&lt;/what-in-the-world&gt;
+                        </li>
+                    </ul>
 
                 </section>
 
