@@ -696,13 +696,280 @@ SearchView = Backbone.View.extend({
                             Two way data binding
                         </li>
                         <li class="fragment" data-fragment-index="5">
-                            Custom Directions <br />
+                            Custom Directives <br />
                             &lt;what-in-the-world&gt;&lt;/what-in-the-world&gt;
                         </li>
                     </ul>
 
                 </section>
 
+                <section id="angular-i-vs-d">
+                    <h3>
+                        Imperative vs Declarative
+                    </h3>
+                    <blockquote>
+                    <ul>
+                        <li>
+                            Imperative programming: telling the "machine" how to do something, and as a result what you want to happen will happen.
+                        </li>
+                        <li class="fragment" data-fragment-index="1">
+                            Declarative programming: telling the "machine" what you would like to happen, and let the computer figure out how to do it.
+                        </li>
+                    </ul>
+
+                        <footer>
+                           - <a href="http://latentflip.com/imperative-vs-declarative/">Philip Roberts</a>
+                        </footer>
+                    </blockquote>
+                </section>
+                <section id="angular-i-vs-d-2">
+                    <div>
+                        <h5>Declarative</h5>
+                        <pre><code class="html">
+    &lt;p&gt;{{ gallery }}&lt;/p&gt;
+    &lt;img src=&quot;http://placekitten.com/g/200/300&quot; highlight-image-gallery gallery=1&gt;
+                        </code></pre>
+                    </div>
+                    <div class="fragment" data-fragment-index="1">
+                        <h5>Imperative</h5>
+                        <pre><code class="javascript">
+    app.directive("highlightImageGallery", function() {
+        return {
+            restrict: "A", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
+            link: function(scope, element, attributes) {
+
+                element.bind("mouseenter", function() {
+                    scope.gallery = "View Gallery " + attributes.gallery;
+                    scope.$apply();
+                });
+
+                element.bind("mouseleave", function() {
+                    scope.gallery = "Choose Gallery";
+                    scope.$apply();
+                });
+            }
+        };
+    });
+                        </code></pre>
+                    </div>
+
+                </section>
+
+                <section id="angular-ng-directive">
+
+                    <h3>
+                        angular's ng-directive
+                    </h3>
+
+                    <p>
+                        ng-directives tell angular to perform certain task including but not limited to:
+                    </p>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            User Events - clicks, submits, mouseover<br />
+                            ngFocus, ngClick, ngBlur, npKeyup
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Parts of the DOM - img src, selected fields, styles, classes<br />
+                            ngSrc, ngSelected, ngStyles, ngClass
+                        </li>
+                        <li class="fragment" data-fragment-index="">
+                            Maintain Event Scope, Render Views, Include Html<br />
+                            ngController, ngView, ngInclude
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section id="angular-hard">
+                    <h3>
+                        Why Angular can be hard to 'get'...
+                    </h3>
+                    <p>
+                        Javascript function arguments are very loose. One function can be called without any argument or with 10 arguments.
+                    </p>
+                    <div class="fragment" data-fragment-index="1">
+                        <pre><code class="javascript">
+    doSomething();
+
+    doSomething(car, garage, door);
+
+    doSomething = function(a,b,c,d,e,f){
+
+    }
+                        </code></pre>
+                    </div>
+                    <p class="fragment" data-fragment-index="2">
+                        Javascript scope can be very confusing. When is 'this' used in an object and when to use global objects.
+                    </p>
+                </section>
+                <section id="angular-hard-2">
+                    <div class="fragement" data-fragment-index="1">
+                        <pre><code class="javascript tall">
+    var object = function(){
+        return {
+            name : 'my object',
+            method: function(){
+                this.name = 'other name';
+            },
+            subObject: {
+                name: 'different name',
+                method: function(){
+                    if(this.name=='different name'){
+                        //something cool
+                    }
+                },
+                elementFunction: function(el){
+
+                    //el was recently refered to as this
+                    el.text(this.name);
+                }
+            }
+        }
+    }
+
+    $(function(){
+        foo = new object();
+
+        $('button').click(function(){
+            var $el = $(this);
+
+            $el.text(foo.name);
+
+            setTimeout(function(){
+                foo.subObject.elementFunction($el);
+            },1000);
+        });
+    });
+                        </code></pre>
+                    </div>
+                </section>
+
+                <section id="angular-controller">
+                    <h4>How Angular Makes it Better</h4>
+
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            ngController and the $scope object
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Defined scope by declaring it within the DOM node
+                        </li>
+                    </ul>
+                    <pre class="fragment" data-fragment-index="3">
+                        <code class="html tall">
+    &lt;div ng-controller=&quot;ContactController&quot;&gt;
+        Email:&lt;input type=&quot;text&quot; /&gt;
+        &lt;button ng-click=&quot;add()&quot;&gt;Add&lt;/button&gt;
+        &lt;h2&gt;Car Garage&lt;/h2&gt;
+
+        &lt;ul&gt;
+            &lt;li ng-repeat=&quot;cars in garage&quot;&gt; {{ car }} &lt;/li&gt;
+        &lt;/ul&gt;
+
+    &lt;/div&gt;
+                        </code>
+                    </pre>
+                </section>
+
+                <section id="angular-controller-js">
+                    <h3>Angular Controller</h3>
+                    <pre><code class="javascript">
+    var app = angular.module("app", ['ngRoute'])
+
+    app.controller("HomeController", function($scope, AuthenticationService) {
+        $scope.garage = [
+            'Pinto',
+            'PT Cruise',
+            'Vanagon'
+        ];
+
+        $scope.form = function($location){
+            $location.path('/add/car');
+        }
+
+        $scope.add = function() {
+            $scope.garage.push('Kia Soul');
+            $scope.apply();
+        };
+    });
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h3>Two way data binding</h3>
+                    <h4>You've changed!</h4>
+                    <div class="fragment" data-fragment-index="1">
+                        <img src="_/images/Two_Way_Data_Binding.png" alt="Two Way Data Binding"/>
+                    </div>
+                    <div class="fragment" data-fragment-index="2">
+                        <p>
+                            If an element is changed by the user the model is updated.<br/><br/>
+                            If the model is changed by the javascript, the element is updated.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="angular-directives">
+                    <h3>Custom Directives</h3>
+                    <pre><code class="javascript">
+    app.directive("whatInTheWorld", function() {
+        return {
+            restrict: "A", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
+            link: function(scope, element, attributes) {
+
+                element.bind("mouseenter", function() {
+                    scope.gallery = "View Gallery " + attributes.gallery;
+                    scope.$apply();
+                });
+
+                element.bind("mouseleave", function() {
+                    scope.gallery = "Choose Gallery";
+                    scope.$apply();
+                });
+            }
+        };
+    });
+                    </code></pre>
+                </section>
+
+                <section id="angular-more">
+                    <h3>
+                        More to Learn
+                    </h3>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            jQlite
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Services - adding custom arguments to functions
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="take-away">
+                    <h2>Take Aways</h2>
+                    <p>
+                        Single Page Applications are only growing in popularity. The massive amount of information on the internet needs to curated.
+                        Single Page Applications deliver important information to users through a seamless user interface.
+                    </p>
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            jQuery is a great way to learn javascript, manipulation the dom and track events
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Backbone helps to maintain large projects with a lot of DOM manipulation. It also helps with syncing
+                            data through RESTful APIs.
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            Angular provides single page application magic, but can be hard
+                        to learn. Angular handles scope, data binding and views through declarative html.
+                        </li>
+                        <li class="fragment" data-fragment-index="4">
+                            Javascript can be confusing?! Don't give up hope! Learn little by little and look to the open source community for help.
+                        </li>
+                    </ul>
+                </section>
 			</div>
 
 		</div>
