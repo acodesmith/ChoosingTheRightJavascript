@@ -63,7 +63,7 @@
                     <div class="fragment" data-fragment-index="2">
                         <pre>
 <code class="javascript">
-    $(".do-something").function(function(){
+    $(".do-something").click(function(function(){
         $(this).then(function(){
             this.really(function(){
                 this.comeOn(function(){
@@ -557,19 +557,10 @@ SearchView = Backbone.View.extend({
 
                     <pre><code class="javascript tall">
     &lt;script type=&quot;text/template&quot; id=&quot;template&quot;&gt;
-        &lt;h1&gt;&lt;%= title %&gt;&lt;/h1&gt;
-        &lt;% if (rating_count) { %&gt;
-            &lt;p class=&quot;rating&quot;&gt;
-                &lt;% for (var i = 1; i &lt;= 5; i++) { %&gt;
-                    &lt;% if (avg_rating &gt;= i) { %&gt;
-                        &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-                            &lt;% } else if (avg_rating &gt; i - 1) { %&gt;
-                                &lt;i class=&quot;fa fa-star-half-o&quot;&gt;&lt;/i&gt;
-                            &lt;% } else { %&gt;
-                            &lt;i class=&quot;fa fa-star-o&quot;&gt;&lt;/i&gt;
-                        &lt;% } %&gt;
-                    &lt;% } %&gt;
-                (&lt;%= rating_count %&gt;)
+        &lt;h1&gt;&lt;%= make %&gt;&lt;/h1&gt;
+        &lt;% if (year > 1930 && year < 1984) { %&gt;
+            &lt;p&gt;
+                Classic Car
             &lt;/p&gt;
         &lt;% } %&gt;
     &lt;/script&gt;
