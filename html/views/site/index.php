@@ -15,7 +15,24 @@ $this->title = 'Choosing the Right Javascript For the Job';
 
     <div class="body-content">
 
-        <div class="row">
+        <div class="row groups">
+            <div class="col-lg-4">
+                <div class="well">
+                    <p>
+                        <img src="/presentation/_/images/jquery.png" alt="Backbone" width="200" />
+                        <br />
+                        <br />
+                        jQuery is a fast, small, and feature-rich JavaScript library.
+                        It makes things like HTML document traversal and manipulation,
+                        event handling, animation, and Ajax much simpler with an easy-to-use API
+                        that works across a multitude of browsers. With a combination of
+                        versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+                    </p>
+
+                    <p>
+                </div>
+            </div>
+
             <div class="col-lg-4">
                 <div class="well">
                     <p>
@@ -27,12 +44,9 @@ $this->title = 'Choosing the Right Javascript For the Job';
                         and connects it all to your existing API over a RESTful JSON interface.</p>
 
                     <p>
-
-                    <p>
-                        <a class="btn btn-primary" href="/spa/backbone">Backbone SPA</a>
-                    </p>
                 </div>
             </div>
+
             <div class="col-lg-4">
                 <div class="well">
                     <p>
@@ -44,27 +58,9 @@ $this->title = 'Choosing the Right Javascript For the Job';
                         AngularJS is a toolset for building the framework most suited to your application development.
                         It is fully extensible and works well with other libraries.
                     </p>
-                    <p>
-                        <a class="btn btn-primary" href="/spa/angular">Angular SPA</a>
-                    </p>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="well">
-                    <p>
-                        <img src="http://emberjs.com/images/ember_logo.png" alt="Ember JS" />
-                        <br />
-                        <br />
-                        Ember.js is a client-side JS web application framework based on the MVC pattern.
-                        It allows developers to create scalable single-page applications by incorporating a rich object model,
-                        declarative two-way data binding, computed properties, automatically-updating templates,
-                        and a router for managing application state.
-                    </p>
-                    <p>
-                        <a class="btn btn-primary" href="/spa/ember">Ember SPA</a>
-                    </p>
-                </div>
-            </div>
+
         </div>
 
     </div>
