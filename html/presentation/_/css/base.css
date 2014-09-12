@@ -10,12 +10,13 @@
 .reveal pre {
   background: #23241f;
   min-width: 30em;
+  width: 100%;
 }
-/* line 17, ../sass/base.scss */
+/* line 18, ../sass/base.scss */
 .reveal pre code.tall {
   max-height: 700px;
 }
-/* line 21, ../sass/base.scss */
+/* line 22, ../sass/base.scss */
 .reveal pre code.extra-tall {
   max-height: 1000px;
 }

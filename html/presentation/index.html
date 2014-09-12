@@ -49,6 +49,33 @@
 					</ul>
 				</section>
 
+                <section>
+                    <h3>
+                        What are you talking about?!
+                    </h3>
+
+                    <ul>
+                        <li class="fragment" data-fragment-index="1">
+                            Modern Javascript Problems and Solutions
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            Single Page Application Breakdown
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            jQuery   -  the mother of the javascript rebound
+                        </li>
+                        <li class="fragment" data-fragment-index="4">
+                            Backbone -  structuring large projects
+                        </li>
+                        <li class="fragment" data-fragment-index="5">
+                            Angular  -  taming the wild JS beast
+                        </li>
+                        <li class="fragment">
+                            Questions and Answers
+                        </li>
+                    </ul>
+                </section>
+
                 <section class="stack" id="where-is-js">
 
                     <h3>
@@ -79,6 +106,19 @@
                     </div>
                 </section>
 
+                <section>
+                    <h3>
+                        Things are getting better...
+                    </h3>
+
+                    <p>
+                        Javascript has become the star of the web programming show. <br /><br />
+                        Well maintained frameworks and libraries have a huge support community. <br /><br />
+                        Syncing asynchronous actions with the help of promises.
+                    </p>
+
+                </section>
+
                 <section id="rescue">
                     <h5>Frameworks, promises and JSON</h5>
 
@@ -88,11 +128,11 @@
         jQuery Deferred
     </h6>
     <pre><code class="javascript">
-        $deferred = $.getJSON('/api/json/data');
+    $deferred = $.getJSON('/api/json/data');
 
-        $deferred.done(function(data){
-            //data is json object
-        });
+    $deferred.done(function(data){
+        //data is json object
+    });
     </code></pre>
 </div>
 <div class="fragment" data-fragment-index="2">
@@ -111,18 +151,11 @@
 <div class="fragment" data-fragment-index="3">
     <h6>Angular Promise</h6>
     <pre><code class="javascript">
-        app.factory('PromiseMe', function ($http, $q) {
-            return {
-                getResult: function() {
-                        $http.get('/api/json/data')
-                        .then(function(response) {
-                            //response is http get request
-                            return response.data;
-                        });
-                    }
-                }
-            };
-        });
+    $http.get('/api/json/data')
+        .then(function(response) {
+        //response is http get request
+        return response.data;
+    });
     </code></pre>
 </div>
                 </section>
@@ -142,6 +175,13 @@
                         </footer>
                     </blockquote>
 
+                </section>
+
+                <section>
+                    <img src="_/images/spa-grooveshark.jpg" alt="Grooveshark"/>
+                </section>
+                <section>
+                    <img src="_/images/spa-pandora.png" alt="Pandora"/>
                 </section>
 
                 <section id="spa-do">
@@ -179,8 +219,6 @@ SearchView = Backbone.View.extend({
                             </pre>
                         </li>
                     </ul>
-
-
                 </section>
 
                 <section id="when-to-us">
@@ -218,7 +256,7 @@ SearchView = Backbone.View.extend({
                     <ul>
                         <li>Application programming interface
                         </li>
-                        <li>Similar to HTTPS request: GET, PUT, POST, DELETE
+                        <li>Similar to HTTP request: GET, PUT, POST, DELETE
                         </li>
                         <li>XML RPC
                         </li>
@@ -267,7 +305,7 @@ SearchView = Backbone.View.extend({
                             Normalization, Ajax and Plugins
                         </li>
                         <li class="fragment" data-fragment-index="5">
-                            Versions - 1.11.X and 2.x.x
+                            Versions - 1.11.X and 2.x.x (ECMA)
                         </li>
                         <li class="fragment" data-fragment-index="6">
                             How many times can you write the same thing?
@@ -285,61 +323,6 @@ SearchView = Backbone.View.extend({
 
                 </section>
 
-                <!--<section id="jquery-core">-->
-                    <!--<h3>jQuery Core</h3>-->
-                    <!--<ul>-->
-                        <!--<li class="fragment" data-fragment-index="1">-->
-                            <!--Selector Object-->
-                            <!--<pre><code class="javascript">-->
-    <!--var $jQueryObject = $('div');-->
-
-    <!--$jQueryObject.addClass('foo')-->
-        <!--.removeClass('bar')-->
-        <!--.text('Hello World')-->
-        <!--.closest('section')-->
-        <!--.append('&lt;h1&gt;New Title&lt;/h1&gt;');-->
-                            <!--</code></pre>-->
-                        <!--</li>-->
-                        <!--<li class="fragment" data-fragment-index="2">-->
-                            <!--Ajax-->
-                            <!--<pre><code class="javasscript">-->
-    <!--$.ajax({-->
-        <!--type: 'PUT',-->
-        <!--data: $form.serialize(),-->
-        <!--success: function(data) {-->
-            <!--//Put complete callback-->
-        <!--}-->
-    <!--});-->
-                            <!--</code></pre>-->
-                        <!--</li>-->
-                    <!--</ul>-->
-                <!--</section>-->
-                <!--<section id="jquery-core-2">-->
-                    <!--<h3>jQuery More Core</h3>-->
-                    <!--<ul>-->
-                        <!--<li class="fragment" data-fragment-index="1">-->
-                            <!--Plugins-->
-                            <!--<ul>-->
-                                <!--<li>jQuery UI</li>-->
-                                <!--<li>lightbox</li>-->
-                                <!--<li>fitVids</li>-->
-                            <!--</ul>-->
-                            <!--<pre><code class="javascript">-->
-    <!--$('input').datePicker({-->
-        <!--dateFormat: "yy-mm-dd"-->
-    <!--});-->
-                                <!--</code></pre>-->
-                        <!--</li>-->
-                        <!--<li class="fragment" data-fragment-index="2">-->
-                            <!--Extending-->
-                            <!--<pre><code class="javascript">-->
-    <!--$.fn.myCoolFunction = function(){-->
-        <!--console.log('Be Cool');-->
-    <!--}-->
-                            <!--</code></pre>-->
-                        <!--</li>-->
-                    <!--</ul>-->
-                <!--</section>-->
                 <section id="jquery-spa">
                     <h3>
                         Building a SPA with jQuery
@@ -425,6 +408,10 @@ SearchView = Backbone.View.extend({
                         <li><code class="javascript">stopListening</code></li>
                     </ul>
                 </section>
+                
+                <section>
+                    <img src="_/images/spa-grooveshark.jpg" alt=""/>
+                </section>
 
                 <section id="backbone-model-joke">
                     <h3>
@@ -482,7 +469,7 @@ SearchView = Backbone.View.extend({
                         Backbone Collections
                     </h3>
                     <p>
-                        Collections are a group of models with self-contained functions and interact with the sync (aka the RESTful API)
+                        Collections are a group of models with self-contained functions and events.
                     </p>
                     <div class="fragment" data-fragment-index="1">
 
@@ -529,13 +516,16 @@ SearchView = Backbone.View.extend({
                     </h3>
                     <pre><code class="javascript tall">
     var GarageDoor = Backbone.View.extend({
+        //Bound to the Class
         className: "document-row",
+        //Bound to the DOM element
         el: 'section',
+        //Bound to the jQuery Object
         $el : $('section'),
+        //Setting the Model
+        model: pinto,
         events: {
-            "click .nextCar":       "open",
-            "click .button.edit":   "openGarageDoor",
-            "click .button.delete": "destroy"
+            "click .doorknob":       "openGarageDoor",
         },
         openGarageDoor: function(){
             //called on a click event from the events object
@@ -568,45 +558,6 @@ SearchView = Backbone.View.extend({
 
                 </section>
 
-                <section id="backbone-tree">
-
-                    <h3>
-                        Backbone App <br />
-                        <small>Folder Structure</small>
-                    </h3>
-
-                    <pre><code class="javascript tall">
-                        /* File Structure
-                        ├── js
-                        │   ├── libs
-                        │   │   ├── jquery
-                        │   │   │   ├── jquery.min.js
-                        │   │   ├── backbone
-                        │   │   │   ├── backbone.min.js
-                        │   │   └── underscore
-                        │   │   │   ├── underscore.min.js
-                        │   ├── models
-                        │   │   ├── users.js
-                        │   │   └── projects.js
-                        │   ├── collections
-                        │   │   ├── users.js
-                        │   │   └── projects.js
-                        │   ├── views
-                        │   │   ├── projects
-                        │   │   │   ├── list.js
-                        │   │   │   └── edit.js
-                        │   │   └── users
-                        │   │       ├── list.js
-                        │   │       └── edit.js
-                        │   ├── router.js
-                        │   ├── app.js
-                        │   ├── main.js  // Bootstrap
-                        └── index.html
-                        */
-                    </code></pre>
-
-                </section>
-
                 <section id="backbone-app">
 
                     <h3>Backbone Application Object</h3>
@@ -622,7 +573,7 @@ SearchView = Backbone.View.extend({
 
                         app.collections = [];
 
-                        app.templates = [];
+                        app.views = [];
                     </code></pre>
 
                 </section>
@@ -700,10 +651,10 @@ SearchView = Backbone.View.extend({
                     </h3>
                     <blockquote>
                     <ul>
-                        <li>
+                        <li class="fragment" data-fragment-index="1">>
                             Imperative programming: telling the "machine" how to do something, and as a result what you want to happen will happen.
                         </li>
-                        <li class="fragment" data-fragment-index="1">
+                        <li class="fragment" data-fragment-index="2">
                             Declarative programming: telling the "machine" what you would like to happen, and let the computer figure out how to do it.
                         </li>
                     </ul>
@@ -717,8 +668,8 @@ SearchView = Backbone.View.extend({
                     <div>
                         <h5>Declarative</h5>
                         <pre><code class="html">
-    &lt;p&gt;{{ gallery }}&lt;/p&gt;
-    &lt;img src=&quot;http://placekitten.com/g/200/300&quot; highlight-image-gallery gallery=1&gt;
+&lt;p&gt;{{ gallery }}&lt;/p&gt;
+&lt;img src=&quot;http://placekitten.com/g/200/300&quot; highlight-image-gallery gallery=1&gt;
                         </code></pre>
                     </div>
                     <div class="fragment" data-fragment-index="1">
@@ -726,7 +677,8 @@ SearchView = Backbone.View.extend({
                         <pre><code class="javascript">
     app.directive("highlightImageGallery", function() {
         return {
-            restrict: "A", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
+            // A = Attribute, C = CSS Class, E = HTML Element
+            restrict: "A",
             link: function(scope, element, attributes) {
 
                 element.bind("mouseenter", function() {
@@ -753,7 +705,7 @@ SearchView = Backbone.View.extend({
                     </h3>
 
                     <p>
-                        ng-directives tell angular to perform certain task including but not limited to:
+                        ng-directives tells angular to perform a certain task including but not limited to:
                     </p>
                     <ul>
                         <li class="fragment" data-fragment-index="1">
@@ -849,16 +801,19 @@ SearchView = Backbone.View.extend({
                     </ul>
                     <pre class="fragment" data-fragment-index="3">
                         <code class="html tall">
-    &lt;div ng-controller=&quot;ContactController&quot;&gt;
-        Email:&lt;input type=&quot;text&quot; /&gt;
-        &lt;button ng-click=&quot;add()&quot;&gt;Add&lt;/button&gt;
-        &lt;h2&gt;Car Garage&lt;/h2&gt;
+&lt;div ng-controller=&quot;GarageController&quot;&gt;
 
-        &lt;ul&gt;
-            &lt;li ng-repeat=&quot;cars in garage&quot;&gt; {{ car }} &lt;/li&gt;
-        &lt;/ul&gt;
+    Add Car: &lt;input type=&quot;text&quot; name=&quot;carMake&quot; ng-model=&quot;newCar.make&quot; required&gt;
 
-    &lt;/div&gt;
+    &lt;button ng-click=&quot;add()&quot;&gt;Add&lt;/button&gt;
+
+    &lt;h2&gt;Car Garage&lt;/h2&gt;
+
+    &lt;ul&gt;
+        &lt;li ng-repeat=&quot;car in garage&quot;&gt; {{ car.make }} &lt;/li&gt;
+    &lt;/ul&gt;
+
+&lt;/div&gt;
                         </code>
                     </pre>
                 </section>
@@ -866,21 +821,20 @@ SearchView = Backbone.View.extend({
                 <section id="angular-controller-js">
                     <h3>Angular Controller</h3>
                     <pre><code class="javascript">
-    var app = angular.module("app", ['ngRoute'])
+    var app = angular.module("app", ['ngRoute']);
 
-    app.controller("HomeController", function($scope, AuthenticationService) {
+    app.controller("GarageController", function($scope) {
         $scope.garage = [
-            'Pinto',
-            'PT Cruise',
-            'Vanagon'
+            { make: 'Pinto' },
+            { make: 'PT Cruise' },
+            { make: 'Vanagon' }
         ];
 
-        $scope.form = function($location){
-            $location.path('/add/car');
-        }
-
         $scope.add = function() {
-            $scope.garage.push('Kia Soul');
+
+            var newCar = { make: $scope.newCar.make }
+
+            $scope.garage.push( newCar );
             $scope.apply();
         };
     });
@@ -906,7 +860,7 @@ SearchView = Backbone.View.extend({
                     <pre><code class="javascript">
     app.directive("whatInTheWorld", function() {
         return {
-            restrict: "A", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
+            restrict: "E", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
             link: function(scope, element, attributes) {
 
                 element.bind("mouseenter", function() {
@@ -934,6 +888,9 @@ SearchView = Backbone.View.extend({
                         </li>
                         <li class="fragment" data-fragment-index="2">
                             Services - adding custom arguments to functions
+                        </li>
+                        <li class="fragment" data-fragment-index="3">
+                            and so much more....
                         </li>
                     </ul>
                 </section>
